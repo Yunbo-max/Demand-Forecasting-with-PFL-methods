@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "client_CNN22_MLP.py", line 7, in <module>
+    import torch
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\torch\__init__.py", line 129, in <module>
+    raise err
+OSError: [WinError 1455] 页面文件太小，无法完成操作。 Error loading "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\torch\lib\cublas64_11.dll" or one of its dependencies.
