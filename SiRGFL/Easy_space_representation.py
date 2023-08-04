@@ -392,7 +392,7 @@ clusters = kmeans.fit_predict(r2_array)
 
 # Calculate the Silhouette Score
 silhouette_avg = silhouette_score(r2_array, clusters)
-
+# print this
 # Print the Silhouette Score
 print("Silhouette Score:", silhouette_avg)
 
