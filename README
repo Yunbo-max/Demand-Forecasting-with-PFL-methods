@@ -1,4 +1,4 @@
-This Project is to develop a novel personalized federated learning methods. The dissertaion project is supported by Supply Chain Lab and Flower Lab from University of Cambridge
+This Project is to develop a novel personalized federated learning method and apply it to a supply chain demand forecasting task in case study. The dissertaion project is supported by Supply Chain Lab and Flower Lab from University of Cambridge
 
 The structure of the project is follows.
 1. Data-preprocessing and feature engineering
