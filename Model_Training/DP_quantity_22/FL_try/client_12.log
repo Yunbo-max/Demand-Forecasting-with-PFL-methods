@@ -1,0 +1,127 @@
+wandb: Currently logged in as: longyunbo218. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in E:\Federated_learning_flower\experiments\Presentation\DP_quantity_22\FL_try\wandb\run-20230713_185337-zxv055bz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run happy-pine-11
+wandb:  View project at https://wandb.ai/longyunbo218/ISMM_DP_quantity_FL
+wandb:  View run at https://wandb.ai/longyunbo218/ISMM_DP_quantity_FL/runs/zxv055bz
+Eastern Asia
+    Sales per customer  Order Id  Order Customer Id  Order Item Id  Order Item Product Price  Department Id  Order Item Quantity  Category Id  shipping_month  Benefit per order  Order Item Total  Product Card Id  Product Name  Order Item Cardprod Id  Order State  Product Category Id  order_week_day  shipping_year  Category Name  order_month  order_year  Order Item Discount  Department Name  Market   TotalPrice  Order City  Days for shipment (scheduled)  Customer Segment  Customer Full Name       Sales
+0           299.970001    5895.0             8707.0        14664.0                 99.989998            3.0                  3.0          9.0             4.0         101.389999        299.970001            191.0          61.0                   191.0        397.0                  9.0             2.0         2015.0           10.0          3.0      2015.0             0.000000              5.0     2.0   899.910004      2466.0                            2.0               2.0              7987.0  299.970001
+1           178.169998   56359.0             1025.0       140970.0                 59.990002            4.0                  3.0         17.0             4.0        -285.070007        178.169998            365.0          71.0                   365.0        890.0                 17.0             3.0         2017.0           12.0          4.0      2017.0             1.800000              0.0     2.0   534.509995      2053.0                            2.0               2.0              9685.0  179.970001
+2           170.970001   58613.0             8831.0       146701.0                 59.990002            4.0                  3.0         17.0             5.0          42.740002        170.970001            365.0          71.0                   365.0        237.0                 17.0             0.0         2017.0           12.0          5.0      2017.0             9.000000              0.0     2.0   512.910004       864.0                            2.0               2.0              9384.0  179.970001
+3           150.000000    7888.0             5417.0        19707.0                 50.000000            5.0                  3.0         24.0             4.0          72.000000        150.000000            502.0          59.0                   502.0        890.0                 24.0             3.0         2015.0           47.0          4.0      2015.0             0.000000              6.0     2.0   450.000000      1430.0                            2.0               2.0              3293.0  150.000000
+4           115.169998    6783.0            10759.0        16956.0                 39.990002            5.0                  3.0         29.0             4.0          29.940001        115.169998            627.0         102.0                   627.0        351.0                 29.0             0.0         2015.0           38.0          4.0      2015.0             4.800000              6.0     2.0   345.509995      3143.0                            2.0               2.0              3604.0  119.970001
+5           139.500000   55155.0             3752.0       137932.0                 50.000000            5.0                  3.0         24.0             3.0          43.660000        139.500000            502.0          59.0                   502.0        299.0                 24.0             4.0         2017.0           47.0          3.0      2017.0            10.500000              6.0     2.0   418.500000      2080.0                            2.0               2.0              9441.0  150.000000
+6           132.000000    5991.0             4673.0        14921.0                 50.000000            5.0                  3.0         24.0             3.0          13.200000        132.000000            502.0          59.0                   502.0        476.0                 24.0             3.0         2015.0           47.0          3.0      2015.0            18.000000              6.0     2.0   396.000000      3198.0                            2.0               2.0             13466.0  150.000000
+7           132.000000    2263.0             5367.0         5671.0                 50.000000            5.0                  3.0         24.0             2.0          46.200001        132.000000            502.0          59.0                   502.0        830.0                 24.0             5.0         2015.0           47.0          2.0      2015.0            18.000000              6.0     2.0   396.000000      2575.0                            2.0               2.0              9142.0  150.000000
+8           130.500000    2263.0             5367.0         5669.0                 50.000000            5.0                  3.0         24.0             2.0          10.440000        130.500000            502.0          59.0                   502.0        830.0                 24.0             5.0         2015.0           47.0          2.0      2015.0            19.500000              6.0     2.0   391.500000      2575.0                            2.0               2.0              9142.0  150.000000
+9           124.500000   53403.0            10485.0       133427.0                 50.000000            5.0                  3.0         24.0             2.0          15.560000        124.500000            502.0          59.0                   502.0        299.0                 24.0             2.0         2017.0           47.0          2.0      2017.0            25.500000              6.0     2.0   373.500000      2080.0                            2.0               2.0              9384.0  150.000000
+10          225.000000   52478.0             6543.0       131161.0                 50.000000            5.0                  5.0         24.0             2.0          67.500000        225.000000            502.0          59.0                   502.0        720.0                 24.0             3.0         2017.0           47.0          2.0      2017.0            25.000000              6.0     2.0  1125.000000      3154.0                            4.0               0.0               280.0  250.000000
+11          173.960007   57242.0             3990.0       143183.0                 39.990002            5.0                  5.0         29.0             4.0          78.279999        173.960007            627.0         102.0                   627.0        790.0                 29.0             2.0         2017.0           38.0          4.0      2017.0            25.990000              6.0     2.0   869.800034      2842.0                            4.0               0.0             12005.0  199.949997
+12          217.500000    3137.0             8524.0         7805.0                 50.000000            5.0                  5.0         24.0             2.0         104.400002        217.500000            502.0          59.0                   502.0        612.0                 24.0             3.0         2015.0           47.0          2.0      2015.0            32.500000              6.0     2.0  1087.500000      1478.0                            4.0               0.0             11836.0  250.000000
+13          169.960007    3828.0            11761.0         9521.0                 39.990002            5.0                  5.0         29.0             3.0          44.189999        169.960007            627.0         102.0                   627.0        237.0                 29.0             6.0         2015.0           38.0          2.0      2015.0            29.990000              6.0     2.0   849.800034       864.0                            4.0               0.0              7655.0  199.949997
+14          207.500000   57999.0             5506.0       145119.0                 50.000000            5.0                  5.0         24.0             5.0          70.139999        207.500000            502.0          59.0                   502.0        269.0                 24.0             6.0         2017.0           47.0          4.0      2017.0            42.500000              6.0     2.0  1037.500000      2846.0                            4.0               0.0              4561.0  250.000000
+15          200.000000   54274.0             6360.0       135699.0                 50.000000            5.0                  5.0         24.0             3.0         -32.599998        200.000000            502.0          59.0                   502.0       1040.0                 24.0             0.0         2017.0           47.0          3.0      2017.0            50.000000              6.0     2.0  1000.000000      2351.0                            4.0               0.0              9270.0  250.000000
+16          149.960007   60673.0             2053.0       151869.0                 39.990002            5.0                  5.0         29.0             6.0          68.980003        149.960007            627.0         102.0                   627.0        623.0                 29.0             3.0         2017.0           38.0          6.0      2017.0            49.990002              6.0     2.0   749.800034      1963.0                            4.0               0.0             11700.0  199.949997
+17          187.500000   59387.0            10344.0       148673.0                 50.000000            5.0                  5.0         24.0             5.0         -11.810000        187.500000            502.0          59.0                   502.0        967.0                 24.0             5.0         2017.0           47.0          5.0      2017.0            62.500000              6.0     2.0   937.500000      3370.0                            4.0               0.0              9384.0  250.000000
+18          237.550003   55984.0             1339.0       139976.0                 47.990002            6.0                  5.0         37.0             4.0          29.690001        237.550003            818.0          95.0                   818.0        890.0                 37.0             5.0         2017.0           17.0          3.0      2017.0             2.400000              8.0     2.0  1187.750016      2053.0                            4.0               0.0              9735.0  239.949997
+19          153.550003   52478.0             6543.0       131164.0                 31.990000            6.0                  5.0         37.0             2.0          73.699997        153.550003            825.0           7.0                   825.0        720.0                 37.0             3.0         2017.0           17.0          2.0      2017.0             6.400000              8.0     2.0   767.750016      3154.0                            4.0               0.0               280.0  159.949997
+20          395.959992   58375.0             3990.0       146090.0                 89.989998            6.0                  5.0         38.0             5.0         -79.190002        395.959992            306.0          72.0                   306.0        397.0                 38.0             5.0         2017.0           31.0          5.0      2017.0            53.990002              8.0     2.0  1979.799957      2111.0                            4.0               0.0             12005.0  449.950012
+21          499.950012   58034.0             6277.0       145203.0                 99.989998            3.0                  5.0          9.0             5.0         149.990005        499.950012            191.0          61.0                   191.0        235.0                  9.0             4.0         2017.0           10.0          4.0      2017.0             0.000000              5.0     2.0  2499.750061       703.0                            4.0               0.0              3927.0  499.950012
+22          494.950012    2203.0             7701.0         5525.0                 99.989998            3.0                  5.0          9.0             2.0         -18.809999        494.950012            191.0          61.0                   191.0        397.0                  9.0             1.0         2015.0           10.0          2.0      2015.0             5.000000              5.0     2.0  2474.750061      3368.0                            4.0               0.0              5683.0  499.950012
+23          479.950012   60146.0             9528.0       150522.0                 99.989998            3.0                  5.0          9.0             5.0          36.000000        479.950012            191.0          61.0                   191.0        623.0                  9.0             2.0         2017.0           10.0          5.0      2017.0            20.000000              5.0     2.0  2399.750061      1963.0                            4.0               0.0              8879.0  499.950012
+24          474.950012    8678.0            11149.0        21674.0                 99.989998            3.0                  5.0          9.0             5.0        -783.669983        474.950012            191.0          61.0                   191.0        790.0                  9.0             4.0         2015.0           10.0          5.0      2015.0            25.000000              5.0     2.0  2374.750061      2842.0                            4.0               0.0             11807.0  499.950012
+25          474.950012    7980.0             5828.0        19945.0                 99.989998            3.0                  5.0          9.0             5.0         199.479996        474.950012            191.0          61.0                   191.0        790.0                  9.0             1.0         2015.0           10.0          4.0      2015.0            25.000000              5.0     2.0  2374.750061      2842.0                            4.0               0.0              6928.0  499.950012
+26          449.959992   57185.0             6887.0       143043.0                 99.989998            3.0                  5.0          9.0             4.0        -269.970001        449.959992            191.0          61.0                   191.0        397.0                  9.0             0.0         2017.0           10.0          4.0      2017.0            50.000000              5.0     2.0  2249.799957      2466.0                            4.0               0.0              9384.0  499.950012
+27          299.950012   55876.0             5421.0       139714.0                 59.990002            4.0                  5.0         17.0             3.0         140.979996        299.950012            365.0          71.0                   365.0        580.0                 17.0             3.0         2017.0           12.0          3.0      2017.0             0.000000              0.0     2.0  1499.750061      1788.0                            4.0               0.0              8747.0  299.950012
+28          296.950012   53331.0            10200.0       133251.0                 59.990002            4.0                  5.0         17.0             2.0          81.660004        296.950012            365.0          71.0                   365.0        299.0                 17.0             0.0         2017.0           12.0          2.0      2017.0             3.000000              0.0     2.0  1484.750061      3197.0                            4.0               0.0             10389.0  299.950012
+29          296.950012   51725.0            11254.0       129241.0                 59.990002            4.0                  5.0         17.0             1.0          18.410000        296.950012            365.0          71.0                   365.0        890.0                 17.0             6.0         2017.0           12.0          1.0      2017.0             3.000000              0.0     2.0  1484.750061       147.0                            4.0               0.0             12281.0  299.950012INFO flwr 2023-07-13 18:54:09,417 | grpc.py:50 | Opened insecure gRPC connection (no certificates were passed)
+07/13/2023 18:54:09:INFO:Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2023-07-13 18:54:09,433 | connection.py:38 | ChannelConnectivity.IDLE
+07/13/2023 18:54:09:DEBUG:ChannelConnectivity.IDLE
+DEBUG flwr 2023-07-13 18:54:09,433 | connection.py:38 | ChannelConnectivity.READY
+07/13/2023 18:54:09:DEBUG:ChannelConnectivity.READY
+DEBUG flwr 2023-07-13 18:57:56,144 | connection.py:109 | gRPC channel closed
+07/13/2023 18:57:56:DEBUG:gRPC channel closed
+
+torch.Size([19838, 29])
+torch.Size([19838])
+Traceback (most recent call last):
+  File "client_CNN12.py", line 413, in <module>
+    fl.client.start_numpy_client(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 214, in start_numpy_client
+    start_client(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 146, in start_client
+    client_message, sleep_duration, keep_going = handle(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\message_handler\message_handler.py", line 67, in handle
+    return _fit(client, server_msg.fit_ins), 0, True
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\message_handler\message_handler.py", line 126, in _fit
+    fit_res = maybe_call_fit(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\client.py", line 184, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 258, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "client_CNN12.py", line 272, in fit
+    model, optimizer, train_loader = privacy_engine.make_private_with_epsilon(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\privacy_engine.py", line 517, in make_private_with_epsilon
+    noise_multiplier=get_noise_multiplier(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\utils.py", line 70, in get_noise_multiplier
+    eps = accountant.get_epsilon(delta=target_delta, **kwargs)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\prv.py", line 97, in get_epsilon
+    dprv = self._get_dprv(eps_error=eps_error, delta_error=delta_error)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\prv.py", line 126, in _get_dprv
+    return compose_heterogeneous(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 58, in compose_heterogeneous
+    dprvs = [
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 59, in <listcomp>
+    _compose_fourier(dprv, num_self_composition)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 14, in _compose_fourier
+    composed_pmf = irfft(rfft(dprv.pmf) ** num_self_composition)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\scipy\fft\_backend.py", line 25, in __ua_function__
+    return fn(*args, **kwargs)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\scipy\fft\_pocketfft\basic.py", line 62, in r2c
+    return pfft.r2c(tmp, (axis,), forward, norm, None, workers)
+MemoryError: bad allocation
+Traceback (most recent call last):
+  File "client_CNN12.py", line 413, in <module>
+    fl.client.start_numpy_client(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 214, in start_numpy_client
+    start_client(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 146, in start_client
+    client_message, sleep_duration, keep_going = handle(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\message_handler\message_handler.py", line 67, in handle
+    return _fit(client, server_msg.fit_ins), 0, True
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\message_handler\message_handler.py", line 126, in _fit
+    fit_res = maybe_call_fit(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\client.py", line 184, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\flwr\client\app.py", line 258, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "client_CNN12.py", line 272, in fit
+    model, optimizer, train_loader = privacy_engine.make_private_with_epsilon(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\privacy_engine.py", line 517, in make_private_with_epsilon
+    noise_multiplier=get_noise_multiplier(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\utils.py", line 70, in get_noise_multiplier
+    eps = accountant.get_epsilon(delta=target_delta, **kwargs)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\prv.py", line 97, in get_epsilon
+    dprv = self._get_dprv(eps_error=eps_error, delta_error=delta_error)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\prv.py", line 126, in _get_dprv
+    return compose_heterogeneous(
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 58, in compose_heterogeneous
+    dprvs = [
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 59, in <listcomp>
+    _compose_fourier(dprv, num_self_composition)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\opacus\accountants\analysis\prv\compose.py", line 14, in _compose_fourier
+    composed_pmf = irfft(rfft(dprv.pmf) ** num_self_composition)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\scipy\fft\_backend.py", line 25, in __ua_function__
+    return fn(*args, **kwargs)
+  File "C:\Users\23851\miniconda3\envs\tensorflowfinal\lib\site-packages\scipy\fft\_pocketfft\basic.py", line 62, in r2c
+    return pfft.r2c(tmp, (axis,), forward, norm, None, workers)
+MemoryError: bad allocation
+wandb: Waiting for W&B process to finish... (failed 1). Press Ctrl-C to abort syncing.
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb:  View run happy-pine-11 at: https://wandb.ai/longyunbo218/ISMM_DP_quantity_FL/runs/zxv055bz
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20230713_185337-zxv055bz\logs
