@@ -33,8 +33,6 @@ import seaborn as sns
 import wandb
 from sklearn.metrics import r2_score
 
-
-
 region_map = {
     0: 'Southeast Asia',
     1: 'South Asia',
