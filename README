@@ -1,1 +1,7 @@
-This Project is the MPhil dissertaion project
+This Project is to develop a novel personalized federated learning methods. The dissertaion project is supported by Supply Chain Lab and Flower Lab from University of Cambridge
+
+The structure of the project is follows.
+1. Data-preprocessing and feature engineering
+2. SiRGFL (similarity-based ranking and grouping federated learning) algorithm
+3. Experiemnts settings for model_training
+4. Resuts visualization
