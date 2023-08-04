@@ -1,1 +1,8 @@
-This Project is the MPhil dissertaion project
+This Project develop a new SiRGFL algorithm as a novel personalised FL methods. This MPhil Dissertation Project is supported by Supply chain AI Lab and FLower Lab from University of Cambridge. 
+
+And this project is divided into four tasks
+
+1. Data analysis and preprocessing
+2. Simularity-based Ranking and Grouping methods in FL
+3. Model Training (Local learning, Centralised learning, Tradition FL leaning and SIRGFL learning)
+4. Data Visualization
