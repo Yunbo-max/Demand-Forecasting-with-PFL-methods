@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Model_Training/DP_quantity_22/FL_try/example/flower_opacus_example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Model_Training/DP_quantity_22/FL_try/example/flower_opacus_example/download/pytorch-dp" vcs="Git" />
   </component>
 </project>
