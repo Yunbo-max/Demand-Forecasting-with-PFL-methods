@@ -8,6 +8,7 @@
 # Author:Yunbo Long
 # @File:CNN_local.py
 # @Software:PyCharm
+# %% 
 import pandas as pd
 import numpy as np
 import xgboost as xgb
@@ -41,11 +42,11 @@ warnings.filterwarnings('ignore')
 # Load dataset
 # dataset = pd.read_csv('/content/drive/My Drive/DataCoSupplyChainDataset.csv')
 
-dataset =pd.read_csv('E:\Cambridge\\2023 Easter\Tech\Dissertation\Literature Review\Dataset\DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS\DataCoSupplyChainDataset.csv')
+
+dataset =pd.read_csv('/Users/yunbo-max/Desktop/Personalised_FL/Demand-Forecasting-with-PFL-methods/Explotary data analysis/Original Data/DataCoSupplyChainDataset.csv',encoding='latin-1')
 # pd.set_option('display.max_rows', 500)
 # pd.set_option('display.max_columns', 500)
 # pd.set_option('display.width', 1000)
-# print(dataset.head(30))
 
 
 dataset['Customer Full Name'] = dataset['Customer Fname'].astype(str) + dataset['Customer Lname'].astype(str)
@@ -115,6 +116,8 @@ sns.heatmap(correlation_matrix, annot=True, fmt=".3f", cmap="BuPu")
 plt.show()
 
 
+
+
 #Feature Selection based on importance
 from sklearn.feature_selection import f_regression
 F_values, p_values  = f_regression(data, target)
@@ -132,14 +135,14 @@ print(f_reg_results)
 f_reg_list=f_reg_results.Variable.values
 print(f_reg_list)
 #
-# data_final=data[['Order Id', 'Order Customer Id', 'Order Item Id',
-#  'Order Item Product Price' ,'Department Id',
-#  'Category Id' ,'shipping_month' ,'Benefit per order' ,
-#  'Product Card Id', 'Product Name', 'Order Item Cardprod Id' ,
-#  'Order State', 'Product Category Id', 'order_week_day', 'shipping_year',
-#  'Category Name', 'order_month', 'order_year' ,'Order Item Discount',
-#  'Department Name', 'Market', 'Order City',
-#  'Days for shipment (scheduled)' ,'Customer Segment', 'Customer Full Name','index']]
+data_final=data[['Order Id', 'Order Customer Id', 'Order Item Id',
+ 'Order Item Product Price' ,'Department Id',
+ 'Category Id' ,'shipping_month' ,'Benefit per order' ,
+ 'Product Card Id', 'Product Name', 'Order Item Cardprod Id' ,
+ 'Order State', 'Product Category Id', 'order_week_day', 'shipping_year',
+ 'Category Name', 'order_month', 'order_year' ,'Order Item Discount',
+ 'Department Name', 'Market', 'Order City',
+ 'Days for shipment (scheduled)' ,'Customer Segment', 'Customer Full Name','index']]
 #
 # train_data = data_final
 # xs=train_data.loc[:, train_data.columns != 'Sales']
@@ -174,7 +177,8 @@ print(f_reg_list)
 # # # xq_train=scaler.fit_transform(xq_train)
 # # # xq_test=scaler.transform(xq_test)
 # #
-# #
+
+
 # # train_inputs = torch.tensor(xs_train, dtype=torch.float32)
 # # train_targets = torch.tensor(ys_train.values, dtype=torch.float32)
 # # test_inputs = torch.tensor(xs_test, dtype=torch.float32)

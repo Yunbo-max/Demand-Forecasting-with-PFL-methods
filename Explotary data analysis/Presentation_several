@@ -1,0 +1,46 @@
+import pandas as pd
+import networkx as nx
+from pyvis.network import Network
+import webbrowser
+import os
+
+# Create a sample dataframe
+df = pd.read_csv("/Users/yunbo-max/Desktop/Personalised_FL/DataCoSupplyChainDataset.csv", header=0, encoding='unicode_escape')
+
+# Initialize a DiGraph
+G = nx.DiGraph()
+
+# Create a color mapping for unique "Order Region" values
+unique_order_regions = set(df['Order Region'])
+
+# Create a graph for each unique "Order Region"
+graphs = {}
+for order_region in unique_order_regions:
+    # Initialize the pyvis Network for the specific "Order Region"
+    nt = Network(height='500px', width='800px', directed=True)
+    
+    # Add nodes with blue color
+    for _, row in df[df['Order Region'] == order_region].iterrows():
+        customer_city = row['Customer City']
+        order_city = row['Order City']
+        
+        nt.add_node(customer_city, color='blue')
+        nt.add_node(order_city, color='red')
+    
+    # Create edges and assign black color
+    for _, row in df[df['Order Region'] == order_region].iterrows():
+        customer_city = row['Customer City']
+        order_city = row['Order City']
+        
+        # Modify edge colors and set the width to make them thinner
+        nt.add_edge(customer_city, order_city, color='black', width=0.0005)  # Adjust the width value as needed
+
+    # Save the HTML file with a name based on the "Order Region"
+    html_filename = f'customer_order_graph_{order_region}.html'
+    nt.save_graph(html_filename)
+    graphs[order_region] = os.path.abspath(html_filename)
+
+# Open the HTML files for each graph
+for order_region, html_filename in graphs.items():
+    print(f'Saved HTML file for Order Region {order_region}: {html_filename}')
+    webbrowser.open(html_filename)

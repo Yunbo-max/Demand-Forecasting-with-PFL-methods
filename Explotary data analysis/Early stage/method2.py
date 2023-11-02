@@ -60,9 +60,6 @@ data['order date (DateOrders)'] = pd.to_datetime(data['order date (DateOrders)']
 
 
 
-
-
-
 train_data=data.copy()
 
 train_data['fraud'] = np.where(train_data['Order Status'] == 'SUSPECTED_FRAUD', 1, 0)

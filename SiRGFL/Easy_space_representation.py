@@ -44,9 +44,6 @@ warnings.filterwarnings('ignore')
 warnings.filterwarnings('ignore')
 
 
-# # Initialize Weights and Biases
-# wandb.init(project="CNN", name=f"Sheet_{random_sheet_name}")
-
 
 import wandb
 
@@ -104,7 +101,6 @@ class MarketDataset(Dataset):
 import wandb
 
 # Open the HDF5 file
-file = h5py.File('E:\Federated_learning_flower\experiments\Presentation\market_data.h5', 'r')
 import h5py
 
 import pandas as pd
@@ -204,7 +200,7 @@ dropout = 0.3
 global_model = Net(input_neurons, output_neurons, hidden_layers, neurons_per_layer, dropout)
 
 # Open the HDF5 file
-file = h5py.File('E:\Federated_learning_flower\experiments\Presentation\market_data.h5', 'r')
+file = h5py.File('/Users/yunbo-max/Desktop/Personalised_FL/Demand-Forecasting-with-PFL-methods/Explotary data analysis/Dataset and preprocessing/market_data.h5', 'r')
 
 # Get the number of clients from sheet_name
 num_clients = len(sheet_name)
