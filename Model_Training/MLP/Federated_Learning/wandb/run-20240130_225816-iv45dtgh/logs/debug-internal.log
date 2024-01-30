@@ -1,0 +1,167 @@
+2024-01-30 22:58:16,144 INFO    StreamThr :32229 [internal.py:wandb_internal():86] W&B internal server running at pid: 32229, started at: 2024-01-30 22:58:16.144171
+2024-01-30 22:58:16,145 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status
+2024-01-30 22:58:16,147 INFO    WriterThread:32229 [datastore.py:open_for_write():87] open: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/run-iv45dtgh.wandb
+2024-01-30 22:58:16,147 DEBUG   SenderThread:32229 [sender.py:send():382] send: header
+2024-01-30 22:58:16,163 DEBUG   SenderThread:32229 [sender.py:send():382] send: run
+2024-01-30 22:58:16,509 INFO    SenderThread:32229 [dir_watcher.py:__init__():211] watching files in: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files
+2024-01-30 22:58:16,509 INFO    SenderThread:32229 [sender.py:_start_run_threads():1136] run started: iv45dtgh with start time 1706655496.14385
+2024-01-30 22:58:16,513 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: check_version
+2024-01-30 22:58:16,513 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: check_version
+2024-01-30 22:58:16,579 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: run_start
+2024-01-30 22:58:16,583 DEBUG   HandlerThread:32229 [system_info.py:__init__():27] System info init
+2024-01-30 22:58:16,583 DEBUG   HandlerThread:32229 [system_info.py:__init__():42] System info init done
+2024-01-30 22:58:16,583 INFO    HandlerThread:32229 [system_monitor.py:start():194] Starting system monitor
+2024-01-30 22:58:16,583 INFO    SystemMonitor:32229 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-30 22:58:16,583 INFO    HandlerThread:32229 [system_monitor.py:probe():214] Collecting system info
+2024-01-30 22:58:16,584 INFO    SystemMonitor:32229 [interfaces.py:start():190] Started cpu monitoring
+2024-01-30 22:58:16,585 DEBUG   HandlerThread:32229 [system_info.py:probe():151] Probing system
+2024-01-30 22:58:16,585 INFO    SystemMonitor:32229 [interfaces.py:start():190] Started disk monitoring
+2024-01-30 22:58:16,587 INFO    SystemMonitor:32229 [interfaces.py:start():190] Started gpuapple monitoring
+2024-01-30 22:58:16,589 INFO    SystemMonitor:32229 [interfaces.py:start():190] Started memory monitoring
+2024-01-30 22:58:16,589 INFO    SystemMonitor:32229 [interfaces.py:start():190] Started network monitoring
+2024-01-30 22:58:16,593 DEBUG   HandlerThread:32229 [system_info.py:_probe_git():136] Probing git
+2024-01-30 22:58:16,609 DEBUG   HandlerThread:32229 [system_info.py:_probe_git():144] Probing git done
+2024-01-30 22:58:16,609 DEBUG   HandlerThread:32229 [system_info.py:probe():199] Probing system done
+2024-01-30 22:58:16,609 DEBUG   HandlerThread:32229 [system_monitor.py:probe():223] {'os': 'macOS-14.2-arm64-arm-64bit', 'python': '3.9.18', 'heartbeatAt': '2024-01-30T22:58:16.585778', 'startedAt': '2024-01-30T22:58:16.139137', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/client_CNN2_MLP.py', 'codePathLocal': 'client_CNN2_MLP.py', 'codePath': 'Model_Training/MLP/Federated_Learning/client_CNN2_MLP.py', 'git': {'remote': 'https://github.com/Yunbo-max/Demand-Forecasting-with-PFL-methods.git', 'commit': 'b9eabefabe3068a9ce3a7b8fcba9f47e6920551e'}, 'email': '82950147+Yunbo-max@users.noreply.github.com', 'root': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods', 'host': 'dhcp-10-249-106-96.eduroam.wireless.private.cam.ac.uk', 'username': 'yunbo', 'executable': '/Users/yunbo/anaconda3/envs/basic/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 109.91471481323242}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-01-30 22:58:16,609 INFO    HandlerThread:32229 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-30 22:58:16,609 INFO    HandlerThread:32229 [system_monitor.py:probe():227] Publishing system info
+2024-01-30 22:58:16,609 DEBUG   HandlerThread:32229 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-30 22:58:17,514 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/conda-environment.yaml
+2024-01-30 22:58:21,116 DEBUG   HandlerThread:32229 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-30 22:58:21,117 INFO    HandlerThread:32229 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-30 22:58:21,123 DEBUG   SenderThread:32229 [sender.py:send():382] send: files
+2024-01-30 22:58:21,123 INFO    SenderThread:32229 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-30 22:58:21,128 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-30 22:58:21,128 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:21,129 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: python_packages
+2024-01-30 22:58:21,129 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:21,129 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:21,359 DEBUG   SenderThread:32229 [sender.py:send():382] send: telemetry
+2024-01-30 22:58:21,359 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:21,530 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/conda-environment.yaml
+2024-01-30 22:58:21,530 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/wandb-metadata.json
+2024-01-30 22:58:21,530 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/requirements.txt
+2024-01-30 22:58:21,530 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/output.log
+2024-01-30 22:58:21,621 INFO    wandb-upload_0:32229 [upload_job.py:push():131] Uploaded file /var/folders/_y/0xw7_0ss0s3f4kfhj9xl96zw0000gn/T/tmpvxquinatwandb/e3x4nql9-wandb-metadata.json
+2024-01-30 22:58:23,536 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/output.log
+2024-01-30 22:58:26,386 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:31,407 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:36,134 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:36,134 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:36,135 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:37,318 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:42,336 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:47,357 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:47,637 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/config.yaml
+2024-01-30 22:58:51,140 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:51,141 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:51,142 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:53,485 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:58,502 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:03,520 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:06,143 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:06,144 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:06,144 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:09,342 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:14,366 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:16,594 DEBUG   SystemMonitor:32229 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-30 22:59:16,596 DEBUG   SenderThread:32229 [sender.py:send():382] send: telemetry
+2024-01-30 22:59:16,596 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 22:59:19,607 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:20,768 INFO    Thread-13 :32229 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225816-iv45dtgh/files/config.yaml
+2024-01-30 22:59:21,148 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:21,148 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:21,149 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:25,372 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:30,394 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:35,408 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:36,149 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:36,150 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:36,151 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:41,331 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:46,349 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:46,598 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 22:59:51,153 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:51,154 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:51,154 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:52,347 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:57,361 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:02,382 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:06,160 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:06,161 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:06,162 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:08,315 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:13,335 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:16,606 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:00:18,616 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:21,159 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:21,163 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:21,163 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:24,342 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:29,365 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:34,384 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:36,163 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:36,169 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:36,169 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:39,385 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:44,408 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:46,609 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:00:49,622 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:51,168 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:51,172 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:51,173 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:55,377 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:00,396 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:05,417 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:06,173 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:01:06,177 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:01:06,177 DEBUG   SenderThread:32229 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:01:10,453 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:15,478 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:16,613 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:01:20,634 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:25,650 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:30,669 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:35,694 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:40,715 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:45,736 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:46,616 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:01:51,632 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:56,655 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:01,676 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:06,692 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:11,716 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:16,622 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:02:17,629 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:22,649 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:27,667 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:32,690 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:37,712 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:42,732 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:46,629 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:02:48,635 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:53,654 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:58,672 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:03,694 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:08,715 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:13,739 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:16,634 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:03:19,642 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:24,661 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:29,675 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:34,698 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:39,712 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:44,735 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:46,646 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:03:50,664 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:55,686 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:00,701 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:05,720 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:10,740 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:15,753 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:16,648 DEBUG   SenderThread:32229 [sender.py:send():382] send: stats
+2024-01-30 23:04:21,667 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:26,689 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:31,709 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:36,731 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:41,750 DEBUG   HandlerThread:32229 [handler.py:handle_request():146] handle_request: status_report

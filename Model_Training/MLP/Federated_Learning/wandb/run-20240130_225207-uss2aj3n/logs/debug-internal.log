@@ -1,0 +1,325 @@
+2024-01-30 22:52:07,694 INFO    StreamThr :31374 [internal.py:wandb_internal():86] W&B internal server running at pid: 31374, started at: 2024-01-30 22:52:07.693704
+2024-01-30 22:52:07,696 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status
+2024-01-30 22:52:07,698 INFO    WriterThread:31374 [datastore.py:open_for_write():87] open: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/run-uss2aj3n.wandb
+2024-01-30 22:52:07,700 DEBUG   SenderThread:31374 [sender.py:send():382] send: header
+2024-01-30 22:52:07,722 DEBUG   SenderThread:31374 [sender.py:send():382] send: run
+2024-01-30 22:52:08,228 INFO    SenderThread:31374 [dir_watcher.py:__init__():211] watching files in: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files
+2024-01-30 22:52:08,228 INFO    SenderThread:31374 [sender.py:_start_run_threads():1136] run started: uss2aj3n with start time 1706655127.693075
+2024-01-30 22:52:08,239 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: check_version
+2024-01-30 22:52:08,240 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: check_version
+2024-01-30 22:52:08,321 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: run_start
+2024-01-30 22:52:08,328 DEBUG   HandlerThread:31374 [system_info.py:__init__():27] System info init
+2024-01-30 22:52:08,328 DEBUG   HandlerThread:31374 [system_info.py:__init__():42] System info init done
+2024-01-30 22:52:08,328 INFO    HandlerThread:31374 [system_monitor.py:start():194] Starting system monitor
+2024-01-30 22:52:08,328 INFO    SystemMonitor:31374 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-30 22:52:08,328 INFO    HandlerThread:31374 [system_monitor.py:probe():214] Collecting system info
+2024-01-30 22:52:08,328 INFO    SystemMonitor:31374 [interfaces.py:start():190] Started cpu monitoring
+2024-01-30 22:52:08,329 DEBUG   HandlerThread:31374 [system_info.py:probe():151] Probing system
+2024-01-30 22:52:08,329 INFO    SystemMonitor:31374 [interfaces.py:start():190] Started disk monitoring
+2024-01-30 22:52:08,330 INFO    SystemMonitor:31374 [interfaces.py:start():190] Started gpuapple monitoring
+2024-01-30 22:52:08,333 INFO    SystemMonitor:31374 [interfaces.py:start():190] Started memory monitoring
+2024-01-30 22:52:08,333 INFO    SystemMonitor:31374 [interfaces.py:start():190] Started network monitoring
+2024-01-30 22:52:08,337 DEBUG   HandlerThread:31374 [system_info.py:_probe_git():136] Probing git
+2024-01-30 22:52:08,355 DEBUG   HandlerThread:31374 [system_info.py:_probe_git():144] Probing git done
+2024-01-30 22:52:08,355 DEBUG   HandlerThread:31374 [system_info.py:probe():199] Probing system done
+2024-01-30 22:52:08,355 DEBUG   HandlerThread:31374 [system_monitor.py:probe():223] {'os': 'macOS-14.2-arm64-arm-64bit', 'python': '3.9.18', 'heartbeatAt': '2024-01-30T22:52:08.329077', 'startedAt': '2024-01-30T22:52:07.680543', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/server_CNN.py', 'codePathLocal': 'server_CNN.py', 'codePath': 'Model_Training/MLP/Federated_Learning/server_CNN.py', 'git': {'remote': 'https://github.com/Yunbo-max/Demand-Forecasting-with-PFL-methods.git', 'commit': 'b9eabefabe3068a9ce3a7b8fcba9f47e6920551e'}, 'email': '82950147+Yunbo-max@users.noreply.github.com', 'root': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods', 'host': 'dhcp-10-249-106-96.eduroam.wireless.private.cam.ac.uk', 'username': 'yunbo', 'executable': '/Users/yunbo/anaconda3/envs/basic/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 109.87626266479492}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-01-30 22:52:08,355 INFO    HandlerThread:31374 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-30 22:52:08,355 INFO    HandlerThread:31374 [system_monitor.py:probe():227] Publishing system info
+2024-01-30 22:52:08,355 DEBUG   HandlerThread:31374 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-30 22:52:09,234 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/conda-environment.yaml
+2024-01-30 22:52:13,253 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/conda-environment.yaml
+2024-01-30 22:52:13,299 DEBUG   HandlerThread:31374 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-30 22:52:13,300 INFO    HandlerThread:31374 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-30 22:52:13,309 DEBUG   SenderThread:31374 [sender.py:send():382] send: files
+2024-01-30 22:52:13,309 INFO    SenderThread:31374 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-30 22:52:13,309 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:13,314 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-30 22:52:13,314 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:52:13,314 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:52:13,314 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: python_packages
+2024-01-30 22:52:13,315 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:52:13,523 DEBUG   SenderThread:31374 [sender.py:send():382] send: telemetry
+2024-01-30 22:52:14,158 INFO    wandb-upload_0:31374 [upload_job.py:push():131] Uploaded file /var/folders/_y/0xw7_0ss0s3f4kfhj9xl96zw0000gn/T/tmp7u8q92tlwandb/2600q3jc-wandb-metadata.json
+2024-01-30 22:52:14,258 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/requirements.txt
+2024-01-30 22:52:14,258 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/wandb-metadata.json
+2024-01-30 22:52:14,258 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/output.log
+2024-01-30 22:52:16,261 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/output.log
+2024-01-30 22:52:18,543 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:23,568 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:28,320 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:52:28,321 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:52:28,321 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:52:29,467 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:34,487 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:39,506 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:40,356 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/config.yaml
+2024-01-30 22:52:43,323 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:52:43,323 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:52:43,324 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:52:44,963 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:49,977 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:54,994 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:52:58,329 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:52:58,330 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:52:58,331 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:53:00,609 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:05,635 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:08,338 DEBUG   SystemMonitor:31374 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-30 22:53:08,344 DEBUG   SenderThread:31374 [sender.py:send():382] send: telemetry
+2024-01-30 22:53:08,345 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:53:11,364 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:12,491 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/config.yaml
+2024-01-30 22:53:13,329 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:53:13,330 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:53:13,333 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:53:17,664 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:22,678 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:27,696 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:28,329 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:53:28,329 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:53:28,337 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:53:33,512 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:38,348 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:53:39,354 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:43,336 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:53:43,338 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:53:43,343 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:53:44,577 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:49,597 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:54,609 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:53:58,338 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:53:58,339 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:53:58,347 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:54:00,569 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:05,583 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:08,350 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:54:11,360 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:13,340 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:54:13,340 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:54:13,349 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:54:17,192 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:22,209 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:27,226 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:28,347 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:54:28,347 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:54:28,356 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:54:32,517 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:37,538 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:38,354 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:54:43,351 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:54:43,352 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:54:43,358 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:54:43,896 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:48,914 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:53,934 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:54:58,358 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:54:58,359 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:54:58,364 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:54:59,542 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:04,567 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:08,354 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:55:10,365 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:13,361 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:55:13,361 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:55:13,367 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:55:15,503 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:20,523 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:25,539 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:28,362 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:55:28,363 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:55:28,369 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:55:30,627 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:35,644 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:38,361 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:55:41,371 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:43,363 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:55:43,365 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:55:43,372 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:55:46,519 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:51,546 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:56,562 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:55:58,365 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:55:58,365 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:55:58,373 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:56:01,586 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:06,604 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:08,362 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:56:12,377 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:13,364 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:56:13,365 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:56:13,376 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:56:17,583 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:22,598 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:27,614 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:28,371 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:56:28,372 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:56:28,381 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:56:33,590 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:38,371 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:56:39,378 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:43,373 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:56:43,375 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:56:43,382 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:56:44,577 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:49,595 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:54,613 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:56:58,379 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:56:58,380 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:56:58,387 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:56:59,632 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:04,640 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:08,376 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:57:10,385 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:13,378 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:57:13,379 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:57:13,391 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:57:15,624 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:20,641 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:25,660 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:28,381 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:57:28,381 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:57:28,395 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:57:31,544 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:36,569 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:38,384 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:57:42,399 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:43,385 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:57:43,386 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:57:43,396 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:57:48,006 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:53,030 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:58,042 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:57:58,390 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:57:58,390 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:57:58,401 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:03,558 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:08,384 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:58:09,389 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:13,399 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:13,411 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:13,419 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:14,963 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:20,687 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:20,837 INFO    Thread-13 :31374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240130_225207-uss2aj3n/files/output.log
+2024-01-30 22:58:25,706 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:28,405 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:28,406 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:28,414 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:30,854 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:35,874 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:38,390 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:58:41,402 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:43,408 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:43,410 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:43,415 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:58:46,667 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:51,688 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:56,709 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:58:58,410 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:58:58,411 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:58:58,417 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:02,660 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:07,679 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:08,397 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:59:13,415 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:13,416 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:13,416 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:13,418 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:19,200 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:24,216 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:28,417 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:28,419 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:28,423 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:29,634 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:34,651 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:38,404 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 22:59:40,414 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:43,420 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:43,420 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:43,425 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 22:59:45,635 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:50,657 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:55,666 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 22:59:58,424 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 22:59:58,425 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 22:59:58,431 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:01,668 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:06,678 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:08,410 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:00:12,428 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:13,426 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:13,427 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:13,433 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:17,816 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:22,833 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:27,855 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:28,430 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:28,430 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:28,433 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:33,643 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:38,415 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:00:39,419 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:43,434 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:43,435 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:00:43,437 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:45,224 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:50,243 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:55,263 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:00:58,440 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:00:58,441 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:00:58,441 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:01:00,638 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:05,656 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:08,417 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:01:11,430 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:13,443 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 23:01:13,444 DEBUG   SenderThread:31374 [sender.py:send_request():409] send_request: stop_status
+2024-01-30 23:01:13,448 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 23:01:16,724 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:21,743 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:26,766 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:31,785 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:36,805 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:38,423 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:01:42,440 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:47,458 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:52,476 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:01:57,495 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:02,518 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:07,534 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:08,426 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:02:13,442 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:18,464 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:23,488 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:28,502 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:33,521 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:38,435 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:02:39,441 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:44,461 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:49,482 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:54,501 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:02:59,520 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:04,541 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:08,443 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:03:10,451 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:15,466 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:20,491 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:25,511 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:30,533 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:35,549 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:38,451 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:03:41,466 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:46,488 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:51,513 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:03:56,530 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:01,554 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:06,571 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:08,456 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:04:12,471 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:17,484 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:22,505 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:27,525 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:32,545 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:37,566 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:04:38,460 DEBUG   SenderThread:31374 [sender.py:send():382] send: stats
+2024-01-30 23:04:43,481 DEBUG   HandlerThread:31374 [handler.py:handle_request():146] handle_request: status_report
