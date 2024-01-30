@@ -279,3 +279,5 @@
 2024-01-30 23:16:05,201 DEBUG   HandlerThread:32702 [handler.py:handle_request():146] handle_request: status_report
 2024-01-30 23:16:10,225 DEBUG   HandlerThread:32702 [handler.py:handle_request():146] handle_request: status_report
 2024-01-30 23:16:15,246 DEBUG   HandlerThread:32702 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:16:20,267 DEBUG   HandlerThread:32702 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 23:16:23,153 DEBUG   SenderThread:32702 [sender.py:send():382] send: stats
