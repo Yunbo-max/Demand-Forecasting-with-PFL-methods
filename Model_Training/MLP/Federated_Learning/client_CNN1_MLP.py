@@ -394,6 +394,6 @@ class RegressionClient(fl.client.NumPyClient):
 
 # Create the client and start the client
 fl.client.start_numpy_client(
-    server_address="127.0.0.1:8086",
+    server_address="127.0.0.1:8088",
     client=RegressionClient()
 )

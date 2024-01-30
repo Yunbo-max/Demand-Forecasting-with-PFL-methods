@@ -289,7 +289,7 @@ strategy = fl.server.strategy.FedAvg(
 
 # Start Flower server for four rounds of federated learning
 fl.server.start_server(
-    server_address="0.0.0.0:8086",
+    server_address="0.0.0.0:8088",
     config=fl.server.ServerConfig(num_rounds=100),
     strategy=strategy,
 )
