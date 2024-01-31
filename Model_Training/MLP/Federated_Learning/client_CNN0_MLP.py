@@ -22,13 +22,12 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader, TensorDataset
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
-from tensorboardX import SummaryWriter
+
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 import seaborn as sns
 
-import lightgbm as lgb
 import warnings
 from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
 from sklearn import svm, metrics, tree, preprocessing, linear_model
@@ -65,7 +64,7 @@ import wandb
 import h5py
 
 # Open the HDF5 file
-file = h5py.File('E:\Federated_learning_flower\experiments\Presentation\market_data.h5', 'r')
+file = h5py.File('/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Explotary data analysis/Dataset and preprocessing/market_data.h5', 'r')
 
 region_map = {
     0: 'Southeast Asia',
@@ -116,7 +115,7 @@ sheet_name = '0'
 
 value = region_map[float(sheet_name)]
 config = {"region": value}
-wandb.init(project='Cambridge_sales_MLP_FL_8.5_east4', config=config)
+wandb.init(project='Cambridge_sales_MLP_3', config=config)
 
 # Read the dataset using the current sheet name
 dataset = file[sheet_name][:]
@@ -395,6 +394,6 @@ class RegressionClient(fl.client.NumPyClient):
 
 # Create the client and start the client
 fl.client.start_numpy_client(
-    server_address="127.0.0.1:8086",
+    server_address="127.0.0.1:8087",
     client=RegressionClient()
 )
