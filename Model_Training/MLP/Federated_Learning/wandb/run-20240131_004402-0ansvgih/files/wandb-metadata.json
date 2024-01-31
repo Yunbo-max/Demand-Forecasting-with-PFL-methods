@@ -1,0 +1,37 @@
+{
+    "os": "macOS-14.2-arm64-arm-64bit",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-31T00:44:02.558989",
+    "startedAt": "2024-01-31T00:44:02.056386",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/client_CNN16_MLP.py",
+    "codePathLocal": "client_CNN16_MLP.py",
+    "codePath": "Model_Training/MLP/Federated_Learning/client_CNN16_MLP.py",
+    "git": {
+        "remote": "https://github.com/Yunbo-max/Demand-Forecasting-with-PFL-methods.git",
+        "commit": "1b61d4a8a54a610db2f0c25cee89441ef93bc065"
+    },
+    "email": "82950147+Yunbo-max@users.noreply.github.com",
+    "root": "/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods",
+    "host": "dhcp-10-249-106-96.eduroam.wireless.private.cam.ac.uk",
+    "username": "yunbo",
+    "executable": "/Users/yunbo/anaconda3/envs/Basic/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 111.71323776245117
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

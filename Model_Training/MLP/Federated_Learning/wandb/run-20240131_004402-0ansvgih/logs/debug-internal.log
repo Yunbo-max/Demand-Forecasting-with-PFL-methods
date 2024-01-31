@@ -1,0 +1,205 @@
+2024-01-31 00:44:02,070 INFO    StreamThr :41950 [internal.py:wandb_internal():86] W&B internal server running at pid: 41950, started at: 2024-01-31 00:44:02.069740
+2024-01-31 00:44:02,071 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status
+2024-01-31 00:44:02,075 INFO    WriterThread:41950 [datastore.py:open_for_write():87] open: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/run-0ansvgih.wandb
+2024-01-31 00:44:02,075 DEBUG   SenderThread:41950 [sender.py:send():382] send: header
+2024-01-31 00:44:02,097 DEBUG   SenderThread:41950 [sender.py:send():382] send: run
+2024-01-31 00:44:02,459 INFO    SenderThread:41950 [dir_watcher.py:__init__():211] watching files in: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files
+2024-01-31 00:44:02,459 INFO    SenderThread:41950 [sender.py:_start_run_threads():1136] run started: 0ansvgih with start time 1706661842.069578
+2024-01-31 00:44:02,469 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: check_version
+2024-01-31 00:44:02,469 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: check_version
+2024-01-31 00:44:02,552 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: run_start
+2024-01-31 00:44:02,558 DEBUG   HandlerThread:41950 [system_info.py:__init__():27] System info init
+2024-01-31 00:44:02,558 DEBUG   HandlerThread:41950 [system_info.py:__init__():42] System info init done
+2024-01-31 00:44:02,558 INFO    HandlerThread:41950 [system_monitor.py:start():194] Starting system monitor
+2024-01-31 00:44:02,558 INFO    SystemMonitor:41950 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-31 00:44:02,558 INFO    HandlerThread:41950 [system_monitor.py:probe():214] Collecting system info
+2024-01-31 00:44:02,558 DEBUG   HandlerThread:41950 [system_info.py:probe():151] Probing system
+2024-01-31 00:44:02,558 INFO    SystemMonitor:41950 [interfaces.py:start():190] Started cpu monitoring
+2024-01-31 00:44:02,559 INFO    SystemMonitor:41950 [interfaces.py:start():190] Started disk monitoring
+2024-01-31 00:44:02,562 INFO    SystemMonitor:41950 [interfaces.py:start():190] Started gpuapple monitoring
+2024-01-31 00:44:02,563 INFO    SystemMonitor:41950 [interfaces.py:start():190] Started memory monitoring
+2024-01-31 00:44:02,564 INFO    SystemMonitor:41950 [interfaces.py:start():190] Started network monitoring
+2024-01-31 00:44:02,568 DEBUG   HandlerThread:41950 [system_info.py:_probe_git():136] Probing git
+2024-01-31 00:44:02,585 DEBUG   HandlerThread:41950 [system_info.py:_probe_git():144] Probing git done
+2024-01-31 00:44:02,585 DEBUG   HandlerThread:41950 [system_info.py:probe():199] Probing system done
+2024-01-31 00:44:02,585 DEBUG   HandlerThread:41950 [system_monitor.py:probe():223] {'os': 'macOS-14.2-arm64-arm-64bit', 'python': '3.9.18', 'heartbeatAt': '2024-01-31T00:44:02.558989', 'startedAt': '2024-01-31T00:44:02.056386', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/client_CNN16_MLP.py', 'codePathLocal': 'client_CNN16_MLP.py', 'codePath': 'Model_Training/MLP/Federated_Learning/client_CNN16_MLP.py', 'git': {'remote': 'https://github.com/Yunbo-max/Demand-Forecasting-with-PFL-methods.git', 'commit': '1b61d4a8a54a610db2f0c25cee89441ef93bc065'}, 'email': '82950147+Yunbo-max@users.noreply.github.com', 'root': '/Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods', 'host': 'dhcp-10-249-106-96.eduroam.wireless.private.cam.ac.uk', 'username': 'yunbo', 'executable': '/Users/yunbo/anaconda3/envs/Basic/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 111.71323776245117}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-01-31 00:44:02,585 INFO    HandlerThread:41950 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-31 00:44:02,585 INFO    HandlerThread:41950 [system_monitor.py:probe():227] Publishing system info
+2024-01-31 00:44:02,585 DEBUG   HandlerThread:41950 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-31 00:44:03,466 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/conda-environment.yaml
+2024-01-31 00:44:07,747 DEBUG   HandlerThread:41950 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-31 00:44:07,748 INFO    HandlerThread:41950 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-31 00:44:07,756 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:07,756 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-31 00:44:07,756 DEBUG   SenderThread:41950 [sender.py:send():382] send: files
+2024-01-31 00:44:07,756 INFO    SenderThread:41950 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-31 00:44:07,762 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-31 00:44:07,762 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: python_packages
+2024-01-31 00:44:07,763 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 00:44:07,763 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 00:44:07,764 DEBUG   SenderThread:41950 [sender.py:send():382] send: telemetry
+2024-01-31 00:44:07,764 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: stop_status
+2024-01-31 00:44:08,312 INFO    wandb-upload_0:41950 [upload_job.py:push():131] Uploaded file /var/folders/_y/0xw7_0ss0s3f4kfhj9xl96zw0000gn/T/tmpz0d1cesiwandb/6822jm3e-wandb-metadata.json
+2024-01-31 00:44:08,480 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/conda-environment.yaml
+2024-01-31 00:44:08,481 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/requirements.txt
+2024-01-31 00:44:08,481 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/output.log
+2024-01-31 00:44:08,481 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-metadata.json
+2024-01-31 00:44:10,490 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/output.log
+2024-01-31 00:44:13,004 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:18,025 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:22,767 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 00:44:22,768 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 00:44:22,769 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: stop_status
+2024-01-31 00:44:23,919 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:28,162 DEBUG   SenderThread:41950 [sender.py:send():382] send: exit
+2024-01-31 00:44:28,162 INFO    SenderThread:41950 [sender.py:send_exit():589] handling exit code: 1
+2024-01-31 00:44:28,162 INFO    SenderThread:41950 [sender.py:send_exit():591] handling runtime: 25
+2024-01-31 00:44:28,163 INFO    SenderThread:41950 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 00:44:28,163 INFO    SenderThread:41950 [sender.py:send_exit():597] send defer
+2024-01-31 00:44:28,164 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:28,164 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-31 00:44:28,164 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:28,164 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-31 00:44:28,164 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 1
+2024-01-31 00:44:28,164 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:28,164 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-31 00:44:28,164 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:28,164 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-31 00:44:28,164 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 2
+2024-01-31 00:44:28,165 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:28,165 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-31 00:44:28,165 INFO    HandlerThread:41950 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-31 00:44:28,165 DEBUG   SystemMonitor:41950 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-31 00:44:28,165 DEBUG   SystemMonitor:41950 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-31 00:44:28,165 INFO    HandlerThread:41950 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-31 00:44:28,165 DEBUG   SystemMonitor:41950 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-31 00:44:28,166 INFO    HandlerThread:41950 [interfaces.py:finish():202] Joined disk monitor
+2024-01-31 00:44:28,559 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-summary.json
+2024-01-31 00:44:29,496 INFO    HandlerThread:41950 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-01-31 00:44:29,496 INFO    HandlerThread:41950 [interfaces.py:finish():202] Joined memory monitor
+2024-01-31 00:44:29,496 INFO    HandlerThread:41950 [interfaces.py:finish():202] Joined network monitor
+2024-01-31 00:44:29,496 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:29,496 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:29,496 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,496 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-31 00:44:29,496 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 3
+2024-01-31 00:44:29,496 DEBUG   SenderThread:41950 [sender.py:send():382] send: telemetry
+2024-01-31 00:44:29,497 DEBUG   SenderThread:41950 [sender.py:send():382] send: stats
+2024-01-31 00:44:29,497 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:29,497 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:29,497 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-31 00:44:29,497 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,497 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-31 00:44:29,497 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 4
+2024-01-31 00:44:29,497 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:29,497 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-31 00:44:29,497 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,497 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-31 00:44:29,497 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 5
+2024-01-31 00:44:29,497 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:29,497 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-31 00:44:29,498 DEBUG   SenderThread:41950 [sender.py:send():382] send: summary
+2024-01-31 00:44:29,498 INFO    SenderThread:41950 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 00:44:29,498 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,498 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-31 00:44:29,498 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 6
+2024-01-31 00:44:29,498 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:29,498 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-31 00:44:29,498 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,498 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-31 00:44:29,500 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 00:44:29,564 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-summary.json
+2024-01-31 00:44:29,651 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 7
+2024-01-31 00:44:29,652 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:29,652 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-31 00:44:29,652 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:29,652 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-31 00:44:30,150 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 8
+2024-01-31 00:44:30,151 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:30,151 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-31 00:44:30,151 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:30,151 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-31 00:44:30,151 INFO    SenderThread:41950 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-31 00:44:30,151 INFO    SenderThread:41950 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-31 00:44:30,173 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:30,180 INFO    SenderThread:41950 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-31 00:44:30,182 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 9
+2024-01-31 00:44:30,183 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:30,183 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:30,183 DEBUG   SenderThread:41950 [sender.py:send():382] send: artifact
+2024-01-31 00:44:30,183 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-31 00:44:30,568 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/output.log
+2024-01-31 00:44:30,568 INFO    Thread-13 :41950 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/config.yaml
+2024-01-31 00:44:31,179 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:31,448 INFO    wandb-upload_0:41950 [upload_job.py:push():89] Uploaded file /Users/yunbo/Library/Application Support/wandb/artifacts/staging/tmppm1_lhvp
+2024-01-31 00:44:31,455 INFO    wandb-upload_1:41950 [upload_job.py:push():89] Uploaded file /Users/yunbo/Library/Application Support/wandb/artifacts/staging/tmps688drzg
+2024-01-31 00:44:32,423 INFO    SenderThread:41950 [sender.py:send_artifact():1494] sent artifact job-https___github.com_Yunbo-max_Demand-Forecasting-with-PFL-me..s.git_Model_Training_MLP_Federated_Learning_client_CNN16_MLP.py - {'id': 'QXJ0aWZhY3Q6NzA4NzExMjYw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNTQwMjE0MA==', 'latestArtifact': None}}
+2024-01-31 00:44:32,424 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:32,424 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-31 00:44:32,424 INFO    SenderThread:41950 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-31 00:44:32,578 INFO    SenderThread:41950 [dir_watcher.py:finish():388] scan: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files
+2024-01-31 00:44:32,578 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/requirements.txt requirements.txt
+2024-01-31 00:44:32,578 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/output.log output.log
+2024-01-31 00:44:32,579 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/config.yaml config.yaml
+2024-01-31 00:44:32,580 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-summary.json wandb-summary.json
+2024-01-31 00:44:32,581 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/conda-environment.yaml conda-environment.yaml
+2024-01-31 00:44:32,582 INFO    SenderThread:41950 [dir_watcher.py:finish():402] scan save: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-metadata.json wandb-metadata.json
+2024-01-31 00:44:32,582 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 10
+2024-01-31 00:44:32,583 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:32,583 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:32,584 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-31 00:44:32,585 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:32,585 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-31 00:44:32,585 INFO    SenderThread:41950 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 00:44:32,918 INFO    wandb-upload_0:41950 [upload_job.py:push():131] Uploaded file /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/requirements.txt
+2024-01-31 00:44:32,967 INFO    wandb-upload_1:41950 [upload_job.py:push():131] Uploaded file /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/output.log
+2024-01-31 00:44:33,045 INFO    wandb-upload_4:41950 [upload_job.py:push():131] Uploaded file /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/conda-environment.yaml
+2024-01-31 00:44:33,052 INFO    wandb-upload_2:41950 [upload_job.py:push():131] Uploaded file /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/config.yaml
+2024-01-31 00:44:33,064 INFO    wandb-upload_3:41950 [upload_job.py:push():131] Uploaded file /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/files/wandb-summary.json
+2024-01-31 00:44:33,185 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:33,185 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:33,267 INFO    Thread-12 :41950 [sender.py:transition_state():617] send defer: 11
+2024-01-31 00:44:33,268 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:33,268 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-31 00:44:33,268 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:33,268 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-31 00:44:33,268 INFO    SenderThread:41950 [file_pusher.py:join():181] waiting for file pusher
+2024-01-31 00:44:33,268 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 12
+2024-01-31 00:44:33,268 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:33,268 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-31 00:44:33,268 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:33,269 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-31 00:44:33,269 INFO    SenderThread:41950 [file_stream.py:finish():595] file stream finish called
+2024-01-31 00:44:33,401 INFO    SenderThread:41950 [file_stream.py:finish():599] file stream finish is done
+2024-01-31 00:44:33,401 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 13
+2024-01-31 00:44:33,401 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:33,401 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-31 00:44:33,401 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:33,401 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-31 00:44:33,402 INFO    SenderThread:41950 [sender.py:transition_state():617] send defer: 14
+2024-01-31 00:44:33,402 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 00:44:33,402 INFO    HandlerThread:41950 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-31 00:44:33,402 DEBUG   SenderThread:41950 [sender.py:send():382] send: final
+2024-01-31 00:44:33,402 DEBUG   SenderThread:41950 [sender.py:send():382] send: footer
+2024-01-31 00:44:33,402 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: defer
+2024-01-31 00:44:33,402 INFO    SenderThread:41950 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-31 00:44:33,403 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:33,403 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:33,404 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 00:44:33,404 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 00:44:33,404 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: server_info
+2024-01-31 00:44:33,404 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: server_info
+2024-01-31 00:44:33,406 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-31 00:44:33,406 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-31 00:44:33,406 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 00:44:33,406 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: job_info
+2024-01-31 00:44:33,524 DEBUG   SenderThread:41950 [sender.py:send_request():409] send_request: job_info
+2024-01-31 00:44:33,524 INFO    MainThread:41950 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-01-31 00:44:33,525 INFO    MainThread:41950 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-01-31 00:44:33,525 INFO    MainThread:41950 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-01-31 00:44:33,525 DEBUG   HandlerThread:41950 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-31 00:44:33,525 INFO    HandlerThread:41950 [handler.py:finish():869] shutting down handler
+2024-01-31 00:44:34,411 INFO    WriterThread:41950 [datastore.py:close():296] close: /Users/yunbo/Documents/GitHub/Demand-Forecasting-with-PFL-methods/Model_Training/MLP/Federated_Learning/wandb/run-20240131_004402-0ansvgih/run-0ansvgih.wandb
+2024-01-31 00:44:34,525 INFO    SenderThread:41950 [sender.py:finish():1572] shutting down sender
+2024-01-31 00:44:34,525 INFO    SenderThread:41950 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 00:44:34,525 INFO    SenderThread:41950 [file_pusher.py:join():181] waiting for file pusher

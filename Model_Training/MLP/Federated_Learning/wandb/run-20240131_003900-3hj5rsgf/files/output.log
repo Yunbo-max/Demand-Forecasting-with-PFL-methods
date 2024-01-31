@@ -1,0 +1,743 @@
+INFO flwr 2024-01-31 00:39:05,782 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-01-31 00:39:05,784 | connection.py:42 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-01-31 00:39:05,790 | connection.py:42 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2024-01-31 00:39:05,791 | connection.py:42 | ChannelConnectivity.READY
+    Order Id  Order Customer Id  Order Item Id  Order Item Product Price  Department Id  Category Id  shipping_month  Benefit per order  Product Card Id  Product Name  Order Item Cardprod Id  Order State  Product Category Id  order_week_day  shipping_year  Category Name  order_month  order_year  Order Item Discount  Department Name  Market  Order City  Days for shipment (scheduled)  Customer Segment  Customer Full Name       Sales
+0    75934.0            19487.0       179249.0                327.750000            2.0         73.0             1.0          95.180000           1360.0          78.0                  1360.0        394.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            39.330002              4.0     3.0      1242.0                            1.0               2.0              2723.0  327.750000
+1    75933.0            19486.0       179248.0                327.750000            2.0         73.0             1.0          68.430000           1360.0          78.0                  1360.0        394.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            42.610001              4.0     3.0      1242.0                            1.0               1.0              3900.0  327.750000
+2    75932.0            19485.0       179247.0                327.750000            2.0         73.0             1.0         133.720001           1360.0          78.0                  1360.0        394.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            49.160000              4.0     3.0      1242.0                            2.0               1.0             10353.0  327.750000
+3    75931.0            19484.0       179246.0                327.750000            2.0         73.0             1.0         132.149994           1360.0          78.0                  1360.0        394.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            52.439999              4.0     3.0      1242.0                            1.0               1.0             10599.0  327.750000
+4    75930.0            19483.0       179245.0                327.750000            2.0         73.0             1.0         130.580002           1360.0          78.0                  1360.0       1007.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            55.720001              4.0     3.0      3202.0                            2.0               1.0              4410.0  327.750000
+5    75924.0            19477.0       179239.0                327.750000            2.0         73.0             1.0        -246.360001           1360.0          78.0                  1360.0        909.0                 73.0             2.0         2018.0           40.0          1.0      2018.0             6.560000              4.0     3.0      2914.0                            2.0               1.0              1809.0  327.750000
+6    75913.0            19466.0       179228.0                327.750000            2.0         73.0             1.0          82.589996           1360.0          78.0                  1360.0        395.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            52.439999              4.0     3.0      1262.0                            4.0               1.0              4718.0  327.750000
+7    75912.0            19465.0       179227.0                327.750000            2.0         73.0             1.0         -17.139999           1360.0          78.0                  1360.0        395.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            55.720001              4.0     3.0      1262.0                            4.0               1.0              3995.0  327.750000
+8    75911.0            19464.0       179226.0                327.750000            2.0         73.0             1.0          23.650000           1360.0          78.0                  1360.0        395.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            59.000000              4.0     3.0      1262.0                            4.0               0.0              5612.0  327.750000
+9    75910.0            19463.0       179225.0                327.750000            2.0         73.0             1.0          73.419998           1360.0          78.0                  1360.0        395.0                 73.0             2.0         2018.0           40.0          1.0      2018.0            65.550003              4.0     3.0      1262.0                            4.0               0.0             13037.0  327.750000
+10   75907.0            19460.0       179222.0                327.750000            2.0         73.0             1.0         -97.339996           1360.0          78.0                  1360.0        365.0                 73.0             2.0         2018.0           40.0          1.0      2018.0             3.280000              4.0     3.0      3080.0                            1.0               0.0              3413.0  327.750000
+11   75906.0            19459.0       179221.0                327.750000            2.0         73.0             1.0        -425.579987           1360.0          78.0                  1360.0        365.0                 73.0             2.0         2018.0           40.0          1.0      2018.0             6.560000              4.0     3.0      3080.0                            1.0               0.0               182.0  327.750000
+12   75893.0            19446.0       179208.0                327.750000            2.0         73.0             1.0           0.000000           1360.0          78.0                  1360.0       1084.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            59.000000              4.0     3.0      3537.0                            4.0               1.0             13032.0  327.750000
+13   47752.0             9114.0       119405.0                 50.000000            5.0         24.0            12.0           9.100000            502.0          59.0                   502.0       1017.0                 24.0             1.0         2016.0           47.0         11.0      2016.0             9.000000              6.0     3.0      3277.0                            2.0               2.0              9384.0  100.000000
+14   74796.0            18349.0       178111.0                461.480011            4.0         66.0            12.0          43.610001           1353.0          74.0                  1353.0        394.0                 66.0             6.0         2017.0           15.0         12.0      2017.0            25.379999              0.0     3.0      2948.0                            4.0               1.0             11185.0  461.480011
+15   27918.0            11286.0        69867.0                129.990005            4.0         18.0             2.0          42.990002            403.0          56.0                   403.0        997.0                 18.0             0.0         2016.0           34.0          2.0      2016.0             7.150000              0.0     3.0      3180.0                            4.0               1.0              8907.0  129.990005
+16   21522.0             5270.0        53808.0                129.990005            4.0         18.0            11.0         -29.379999            403.0          56.0                   403.0        919.0                 18.0             6.0         2015.0           34.0         11.0      2015.0             9.100000              0.0     3.0      3153.0                            4.0               1.0               648.0  129.990005
+17   23767.0            10966.0        59474.0                129.990005            4.0         18.0            12.0          15.110000            403.0          56.0                   403.0        487.0                 18.0             3.0         2015.0           34.0         12.0      2015.0             9.100000              0.0     3.0      2224.0                            4.0               1.0              8582.0  129.990005
+18   25433.0             1868.0        63711.0                129.990005            4.0         18.0             1.0        -105.779999            403.0          56.0                   403.0        582.0                 18.0             4.0         2016.0           34.0          1.0      2016.0             9.100000              0.0     3.0       847.0                            4.0               1.0              9310.0  129.990005
+19   73893.0            17446.0       177208.0                215.820007            4.0         76.0            12.0          72.860001           1363.0          81.0                  1363.0        445.0                 76.0             4.0         2017.0           48.0         12.0      2017.0            15.110000              0.0     3.0      1817.0                            4.0               1.0              4242.0  215.820007
+20   29746.0            11924.0        74420.0                 59.990002            4.0         17.0             3.0           6.170000            365.0          71.0                   365.0        442.0                 17.0             4.0         2016.0           12.0          3.0      2016.0             5.400000              0.0     3.0      3511.0                            4.0               1.0              9290.0   59.990002
+21   72533.0            16086.0       175848.0                210.850006            4.0         70.0            11.0          94.019997           1357.0          48.0                  1357.0        425.0                 70.0             0.0         2017.0           33.0         11.0      2017.0            18.980000              0.0     3.0      2182.0                            4.0               1.0               153.0  210.850006
+22   75891.0            19444.0       179206.0                327.750000            2.0         73.0             1.0         103.239998           1360.0          78.0                  1360.0        919.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            81.940002              4.0     3.0      2595.0                            4.0               1.0             13454.0  327.750000
+23   75890.0            19443.0       179205.0                327.750000            2.0         73.0             1.0          81.940002           1360.0          78.0                  1360.0        919.0                 73.0             0.0         2018.0           40.0          1.0      2018.0             0.000000              4.0     3.0      2595.0                            2.0               1.0              4784.0  327.750000
+24   75883.0            19436.0       179198.0                327.750000            2.0         73.0             1.0         146.309998           1360.0          78.0                  1360.0        918.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            22.940001              4.0     3.0      3206.0                            1.0               2.0             13678.0  327.750000
+25   75882.0            19435.0       179197.0                327.750000            2.0         73.0             1.0          74.559998           1360.0          78.0                  1360.0        918.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            29.500000              4.0     3.0      3206.0                            4.0               0.0              5090.0  327.750000
+26   75881.0            19434.0       179196.0                327.750000            2.0         73.0             1.0          59.000000           1360.0          78.0                  1360.0        918.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            32.779999              4.0     3.0      3206.0                            4.0               1.0              3836.0  327.750000
+27   75880.0            19433.0       179195.0                327.750000            2.0         73.0             1.0          83.639999           1360.0          78.0                  1360.0        918.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            39.330002              4.0     3.0      3206.0                            4.0               1.0             13788.0  327.750000
+28   75868.0            19421.0       179183.0                327.750000            2.0         73.0             1.0         100.680000           1360.0          78.0                  1360.0        919.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            13.110000              4.0     3.0      3438.0                            1.0               0.0             10015.0  327.750000
+29   75859.0            19412.0       179174.0                327.750000            2.0         73.0             1.0         -61.939999           1360.0          78.0                  1360.0        489.0                 73.0             0.0         2018.0           40.0          1.0      2018.0            52.439999              4.0     3.0      2984.0                            4.0               1.0              5340.0  327.750000
+torch.Size([5096, 25])
+torch.Size([5096])
+Epoch 1/10, Loss: 20940.9444
+Epoch 2/10, Loss: 9065.1981
+Epoch 3/10, Loss: 7839.8600
+Epoch 4/10, Loss: 7203.7934
+Epoch 5/10, Loss: 7015.3854
+Epoch 6/10, Loss: 7100.5654
+Epoch 7/10, Loss: 6386.3483
+Epoch 8/10, Loss: 7113.7955
+Epoch 9/10, Loss: 7178.5747
+Epoch 10/10, Loss: 6424.3999
+Performance Metrics:
+RMSE (test data): 99.50054168701172
+MAE (test data): 75.49287414550781
+MAPE (test data): 105.10683059692383
+MSE (test data): 9900.3583984375
+R2 (test data): 0.5823971532989869
+loss (test data): 9900.35796381353
+Epoch 1/10, Loss: 3834.8992
+Epoch 2/10, Loss: 3100.1277
+Epoch 3/10, Loss: 2974.5676
+Epoch 4/10, Loss: 2956.1569
+Epoch 5/10, Loss: 2849.1133
+Epoch 6/10, Loss: 2915.1547
+Epoch 7/10, Loss: 2813.3522
+Epoch 8/10, Loss: 2748.9846
+Epoch 9/10, Loss: 2801.8606
+Epoch 10/10, Loss: 2970.0817
+Performance Metrics:
+RMSE (test data): 52.860069274902344
+MAE (test data): 32.68844985961914
+MAPE (test data): 141.88218116760254
+MSE (test data): 2794.18701171875
+R2 (test data): 0.8821395653614341
+loss (test data): 2794.187106960422
+Epoch 1/10, Loss: 2739.4819
+Epoch 2/10, Loss: 2743.0034
+Epoch 3/10, Loss: 2744.4751
+Epoch 4/10, Loss: 2756.9422
+Epoch 5/10, Loss: 2711.2351
+Epoch 6/10, Loss: 2697.8794
+Epoch 7/10, Loss: 2729.8842
+Epoch 8/10, Loss: 2882.6287
+Epoch 9/10, Loss: 2888.9948
+Epoch 10/10, Loss: 2796.7348
+Performance Metrics:
+RMSE (test data): 50.42268753051758
+MAE (test data): 30.862031936645508
+MAPE (test data): 146.60463333129883
+MSE (test data): 2542.447265625
+R2 (test data): 0.8927580934906877
+loss (test data): 2542.4473935081846
+Epoch 1/10, Loss: 2874.2611
+Epoch 2/10, Loss: 2704.4417
+Epoch 3/10, Loss: 2719.3830
+Epoch 4/10, Loss: 2757.5796
+Epoch 5/10, Loss: 2771.0800
+Epoch 6/10, Loss: 2759.8927
+Epoch 7/10, Loss: 3098.4765
+Epoch 8/10, Loss: 2970.2209
+Epoch 9/10, Loss: 2715.3833
+Epoch 10/10, Loss: 2730.0510
+Performance Metrics:
+RMSE (test data): 49.80735397338867
+MAE (test data): 31.405437469482422
+MAPE (test data): 148.5177993774414
+MSE (test data): 2480.7724609375
+R2 (test data): 0.8953595780157557
+loss (test data): 2480.772461831788
+Epoch 1/10, Loss: 2910.5223
+Epoch 2/10, Loss: 2711.5268
+Epoch 3/10, Loss: 2610.4025
+Epoch 4/10, Loss: 2725.5435
+Epoch 5/10, Loss: 2713.8625
+Epoch 6/10, Loss: 2615.4733
+Epoch 7/10, Loss: 2600.3905
+Epoch 8/10, Loss: 2703.2630
+Epoch 9/10, Loss: 2610.9566
+Epoch 10/10, Loss: 2572.9629
+Performance Metrics:
+RMSE (test data): 50.83571243286133
+MAE (test data): 30.307863235473633
+MAPE (test data): 146.33588790893555
+MSE (test data): 2584.269775390625
+R2 (test data): 0.8909940112380856
+loss (test data): 2584.26951783568
+Epoch 1/10, Loss: 2630.3301
+Epoch 2/10, Loss: 2662.9197
+Epoch 3/10, Loss: 2670.9769
+Epoch 4/10, Loss: 2894.5804
+Epoch 5/10, Loss: 2767.8935
+Epoch 6/10, Loss: 2623.7447
+Epoch 7/10, Loss: 2606.1294
+Epoch 8/10, Loss: 2529.6230
+Epoch 9/10, Loss: 2713.9753
+Epoch 10/10, Loss: 2657.1894
+Performance Metrics:
+RMSE (test data): 49.33218765258789
+MAE (test data): 28.950193405151367
+MAPE (test data): 146.02928161621094
+MSE (test data): 2433.664794921875
+R2 (test data): 0.897346601353858
+loss (test data): 2433.6649201221953
+Epoch 1/10, Loss: 2701.7973
+Epoch 2/10, Loss: 2630.7664
+Epoch 3/10, Loss: 2682.3483
+Epoch 4/10, Loss: 2623.3083
+Epoch 5/10, Loss: 2690.9406
+Epoch 6/10, Loss: 2800.4844
+Epoch 7/10, Loss: 2563.1904
+Epoch 8/10, Loss: 2487.4140
+Epoch 9/10, Loss: 2565.6520
+Epoch 10/10, Loss: 2545.4737
+Performance Metrics:
+RMSE (test data): 51.846866607666016
+MAE (test data): 33.21028518676758
+MAPE (test data): 139.49925899505615
+MSE (test data): 2688.09765625
+R2 (test data): 0.8866144690730354
+loss (test data): 2688.097886976305
+Epoch 1/10, Loss: 2683.3702
+Epoch 2/10, Loss: 2534.1090
+Epoch 3/10, Loss: 2598.2752
+Epoch 4/10, Loss: 2516.2632
+Epoch 5/10, Loss: 2668.1481
+Epoch 6/10, Loss: 2562.8842
+Epoch 7/10, Loss: 2529.1123
+Epoch 8/10, Loss: 2560.6640
+Epoch 9/10, Loss: 2527.9760
+Epoch 10/10, Loss: 2573.8717
+Performance Metrics:
+RMSE (test data): 50.62901306152344
+MAE (test data): 32.10486602783203
+MAPE (test data): 140.34682512283325
+MSE (test data): 2563.296875
+R2 (test data): 0.8918786507434233
+loss (test data): 2563.2968222370077
+Epoch 1/10, Loss: 2672.9170
+Epoch 2/10, Loss: 2629.2519
+Epoch 3/10, Loss: 2509.1382
+Epoch 4/10, Loss: 2582.6164
+Epoch 5/10, Loss: 2518.7232
+Epoch 6/10, Loss: 2495.7917
+Epoch 7/10, Loss: 2490.9635
+Epoch 8/10, Loss: 2504.6045
+Epoch 9/10, Loss: 2465.5447
+Epoch 10/10, Loss: 2617.1911
+Performance Metrics:
+RMSE (test data): 49.876895904541016
+MAE (test data): 30.467912673950195
+MAPE (test data): 142.93842315673828
+MSE (test data): 2487.704833984375
+R2 (test data): 0.8950671577769247
+loss (test data): 2487.7050184312757
+Epoch 1/10, Loss: 2587.8744
+Epoch 2/10, Loss: 2565.9921
+Epoch 3/10, Loss: 2558.7679
+Epoch 4/10, Loss: 2535.5424
+Epoch 5/10, Loss: 2467.3147
+Epoch 6/10, Loss: 2547.9875
+Epoch 7/10, Loss: 2484.9594
+Epoch 8/10, Loss: 2441.2139
+Epoch 9/10, Loss: 2491.5150
+Epoch 10/10, Loss: 2386.1720
+Performance Metrics:
+RMSE (test data): 51.390106201171875
+MAE (test data): 30.670310974121094
+MAPE (test data): 144.3528175354004
+MSE (test data): 2640.943115234375
+R2 (test data): 0.8886034921014483
+loss (test data): 2640.9429933876345
+Epoch 1/10, Loss: 2648.6297
+Epoch 2/10, Loss: 2433.9091
+Epoch 3/10, Loss: 2454.4229
+Epoch 4/10, Loss: 2508.7376
+Epoch 5/10, Loss: 2466.7714
+Epoch 6/10, Loss: 2423.7219
+Epoch 7/10, Loss: 2445.4958
+Epoch 8/10, Loss: 2423.4565
+Epoch 9/10, Loss: 2463.6091
+Epoch 10/10, Loss: 2337.9434
+Performance Metrics:
+RMSE (test data): 50.9999885559082
+MAE (test data): 30.672819137573242
+MAPE (test data): 141.350257396698
+MSE (test data): 2600.9990234375
+R2 (test data): 0.890288354339473
+loss (test data): 2600.9989581544755
+Epoch 1/10, Loss: 2628.2131
+Epoch 2/10, Loss: 2474.0817
+Epoch 3/10, Loss: 2425.3702
+Epoch 4/10, Loss: 2593.9108
+Epoch 5/10, Loss: 2417.0831
+Epoch 6/10, Loss: 2490.4416
+Epoch 7/10, Loss: 2396.8606
+Epoch 8/10, Loss: 2408.9747
+Epoch 9/10, Loss: 2432.5926
+Epoch 10/10, Loss: 2337.8724
+Performance Metrics:
+RMSE (test data): 49.423187255859375
+MAE (test data): 29.549400329589844
+MAPE (test data): 145.61636447906494
+MSE (test data): 2442.651611328125
+R2 (test data): 0.8969675339700457
+loss (test data): 2442.6517034397893
+Epoch 1/10, Loss: 2510.8560
+Epoch 2/10, Loss: 2458.6662
+Epoch 3/10, Loss: 2370.8128
+Epoch 4/10, Loss: 2387.4973
+Epoch 5/10, Loss: 2392.6788
+Epoch 6/10, Loss: 2433.9803
+Epoch 7/10, Loss: 2356.0927
+Epoch 8/10, Loss: 2476.9350
+Epoch 9/10, Loss: 2348.4646
+Epoch 10/10, Loss: 2332.5678
+Performance Metrics:
+RMSE (test data): 51.984703063964844
+MAE (test data): 31.938087463378906
+MAPE (test data): 151.29990577697754
+MSE (test data): 2702.409423828125
+R2 (test data): 0.8860108074702311
+loss (test data): 2702.4092717991643
+Epoch 1/10, Loss: 2450.2242
+Epoch 2/10, Loss: 2454.9606
+Epoch 3/10, Loss: 2442.2756
+Epoch 4/10, Loss: 2283.2732
+Epoch 5/10, Loss: 2392.1930
+Epoch 6/10, Loss: 2394.2317
+Epoch 7/10, Loss: 2311.7382
+Epoch 8/10, Loss: 2377.4822
+Epoch 9/10, Loss: 2331.9883
+Epoch 10/10, Loss: 2246.3002
+Performance Metrics:
+RMSE (test data): 50.209346771240234
+MAE (test data): 30.154075622558594
+MAPE (test data): 143.2673692703247
+MSE (test data): 2520.978515625
+R2 (test data): 0.8936636592991697
+loss (test data): 2520.9786077366643
+Epoch 1/10, Loss: 2469.7281
+Epoch 2/10, Loss: 2316.0389
+Epoch 3/10, Loss: 2349.9192
+Epoch 4/10, Loss: 2316.6843
+Epoch 5/10, Loss: 2346.3092
+Epoch 6/10, Loss: 2257.8663
+Epoch 7/10, Loss: 2250.1234
+Epoch 8/10, Loss: 2336.9837
+Epoch 9/10, Loss: 2393.2930
+Epoch 10/10, Loss: 2305.6503
+Performance Metrics:
+RMSE (test data): 49.819393157958984
+MAE (test data): 29.122846603393555
+MAPE (test data): 142.68943071365356
+MSE (test data): 2481.971923828125
+R2 (test data): 0.8953089891026782
+loss (test data): 2481.9717981806607
+Epoch 1/10, Loss: 2436.9893
+Epoch 2/10, Loss: 2291.2012
+Epoch 3/10, Loss: 2254.3009
+Epoch 4/10, Loss: 2372.3181
+Epoch 5/10, Loss: 2249.3406
+Epoch 6/10, Loss: 2275.2557
+Epoch 7/10, Loss: 2269.7646
+Epoch 8/10, Loss: 2231.6449
+Epoch 9/10, Loss: 2313.8751
+Epoch 10/10, Loss: 2441.3219
+Performance Metrics:
+RMSE (test data): 51.592830657958984
+MAE (test data): 31.271902084350586
+MAPE (test data): 140.27729034423828
+MSE (test data): 2661.8203125
+R2 (test data): 0.8877228724343699
+loss (test data): 2661.8203411172162
+Epoch 1/10, Loss: 2400.3368
+Epoch 2/10, Loss: 2250.4416
+Epoch 3/10, Loss: 2208.2347
+Epoch 4/10, Loss: 2271.4401
+Epoch 5/10, Loss: 2278.5131
+Epoch 6/10, Loss: 2228.8769
+Epoch 7/10, Loss: 2189.4007
+Epoch 8/10, Loss: 2163.1496
+Epoch 9/10, Loss: 2211.7378
+Epoch 10/10, Loss: 2325.8697
+Performance Metrics:
+RMSE (test data): 49.73126983642578
+MAE (test data): 28.60936164855957
+MAPE (test data): 145.8115816116333
+MSE (test data): 2473.19921875
+R2 (test data): 0.8956790183058865
+loss (test data): 2473.1992800087282
+Epoch 1/10, Loss: 2381.0509
+Epoch 2/10, Loss: 2224.3938
+Epoch 3/10, Loss: 2258.7526
+Epoch 4/10, Loss: 2192.8194
+Epoch 5/10, Loss: 2186.1742
+Epoch 6/10, Loss: 2122.5515
+Epoch 7/10, Loss: 2081.6084
+Epoch 8/10, Loss: 2247.4754
+Epoch 9/10, Loss: 2133.1575
+Epoch 10/10, Loss: 2108.4115
+Performance Metrics:
+RMSE (test data): 54.46307373046875
+MAE (test data): 31.180971145629883
+MAPE (test data): 145.1890230178833
+MSE (test data): 2966.2265625
+R2 (test data): 0.8748828395673729
+loss (test data): 2966.226585304344
+Epoch 1/10, Loss: 2411.9181
+Epoch 2/10, Loss: 2235.0113
+Epoch 3/10, Loss: 2212.4744
+Epoch 4/10, Loss: 2180.9005
+Epoch 5/10, Loss: 2203.9161
+Epoch 6/10, Loss: 2077.4614
+Epoch 7/10, Loss: 2252.9317
+Epoch 8/10, Loss: 2120.0319
+Epoch 9/10, Loss: 2170.8487
+Epoch 10/10, Loss: 2197.0243
+Performance Metrics:
+RMSE (test data): 49.702659606933594
+MAE (test data): 28.690818786621094
+MAPE (test data): 145.3889012336731
+MSE (test data): 2470.3544921875
+R2 (test data): 0.8957990227160075
+loss (test data): 2470.354262131911
+Epoch 1/10, Loss: 2213.8375
+Epoch 2/10, Loss: 2207.2128
+Epoch 3/10, Loss: 2080.3071
+Epoch 4/10, Loss: 2172.1991
+Epoch 5/10, Loss: 2289.1161
+Epoch 6/10, Loss: 2095.1238
+Epoch 7/10, Loss: 2117.1525
+Epoch 8/10, Loss: 2075.9057
+Epoch 9/10, Loss: 2047.6354
+Epoch 10/10, Loss: 2119.5286
+Performance Metrics:
+RMSE (test data): 52.40631103515625
+MAE (test data): 34.09116744995117
+MAPE (test data): 136.33185625076294
+MSE (test data): 2746.421630859375
+R2 (test data): 0.8841543384207331
+loss (test data): 2746.421663948031
+Epoch 1/10, Loss: 2325.5757
+Epoch 2/10, Loss: 2236.7028
+Epoch 3/10, Loss: 2282.5209
+Epoch 4/10, Loss: 2171.2649
+Epoch 5/10, Loss: 2116.0617
+Epoch 6/10, Loss: 2084.0798
+Epoch 7/10, Loss: 2106.3838
+Epoch 8/10, Loss: 2147.6557
+Epoch 9/10, Loss: 2022.4620
+Epoch 10/10, Loss: 2054.1298
+Performance Metrics:
+RMSE (test data): 51.682125091552734
+MAE (test data): 29.95397186279297
+MAPE (test data): 143.06074380874634
+MSE (test data): 2671.0419921875
+R2 (test data): 0.8873339007603257
+loss (test data): 2671.041962452424
+Epoch 1/10, Loss: 2331.4546
+Epoch 2/10, Loss: 2223.3079
+Epoch 3/10, Loss: 2125.0347
+Epoch 4/10, Loss: 2090.1480
+Epoch 5/10, Loss: 2126.7607
+Epoch 6/10, Loss: 1989.4824
+Epoch 7/10, Loss: 2072.1232
+Epoch 8/10, Loss: 2085.5395
+Epoch 9/10, Loss: 2061.9173
+Epoch 10/10, Loss: 2046.7353
+Performance Metrics:
+RMSE (test data): 51.805946350097656
+MAE (test data): 29.683948516845703
+MAPE (test data): 141.96603298187256
+MSE (test data): 2683.856201171875
+R2 (test data): 0.8867933779663522
+loss (test data): 2683.856423234765
+Epoch 1/10, Loss: 2244.1816
+Epoch 2/10, Loss: 2182.5330
+Epoch 3/10, Loss: 2060.5183
+Epoch 4/10, Loss: 2093.8018
+Epoch 5/10, Loss: 2041.6405
+Epoch 6/10, Loss: 2038.4500
+Epoch 7/10, Loss: 2024.5197
+Epoch 8/10, Loss: 2096.2864
+Epoch 9/10, Loss: 1961.9155
+Epoch 10/10, Loss: 2123.7030
+Performance Metrics:
+RMSE (test data): 48.91336441040039
+MAE (test data): 28.61104393005371
+MAPE (test data): 146.56565189361572
+MSE (test data): 2392.517333984375
+R2 (test data): 0.8990822364061481
+loss (test data): 2392.5171636225105
+Epoch 1/10, Loss: 2357.4355
+Epoch 2/10, Loss: 2127.7809
+Epoch 3/10, Loss: 2092.4834
+Epoch 4/10, Loss: 2043.4447
+Epoch 5/10, Loss: 2066.4554
+Epoch 6/10, Loss: 1952.0499
+Epoch 7/10, Loss: 1974.0894
+Epoch 8/10, Loss: 2027.5697
+Epoch 9/10, Loss: 2019.3540
+Epoch 10/10, Loss: 1917.0625
+Performance Metrics:
+RMSE (test data): 53.78127670288086
+MAE (test data): 30.575881958007812
+MAPE (test data): 147.66005277633667
+MSE (test data): 2892.425537109375
+R2 (test data): 0.8779958085898807
+loss (test data): 2892.425623855311
+Epoch 1/10, Loss: 2252.6881
+Epoch 2/10, Loss: 2080.2328
+Epoch 3/10, Loss: 2113.8773
+Epoch 4/10, Loss: 2086.9443
+Epoch 5/10, Loss: 1991.0773
+Epoch 6/10, Loss: 2023.6220
+Epoch 7/10, Loss: 1942.4645
+Epoch 8/10, Loss: 1975.9398
+Epoch 9/10, Loss: 1960.6496
+Epoch 10/10, Loss: 1991.1469
+Performance Metrics:
+RMSE (test data): 54.38553237915039
+MAE (test data): 33.0087776184082
+MAPE (test data): 139.54437971115112
+MSE (test data): 2957.7861328125
+R2 (test data): 0.8752388609968806
+loss (test data): 2957.786170372596
+Epoch 1/10, Loss: 2232.5798
+Epoch 2/10, Loss: 2058.8212
+Epoch 3/10, Loss: 1904.9111
+Epoch 4/10, Loss: 2128.0942
+Epoch 5/10, Loss: 2028.2643
+Epoch 6/10, Loss: 1978.9818
+Epoch 7/10, Loss: 1986.1774
+Epoch 8/10, Loss: 1934.9138
+Epoch 9/10, Loss: 2141.2310
+Epoch 10/10, Loss: 1972.7250
+Performance Metrics:
+RMSE (test data): 53.989803314208984
+MAE (test data): 31.5026798248291
+MAPE (test data): 149.21380281448364
+MSE (test data): 2914.89892578125
+R2 (test data): 0.8770478825665259
+loss (test data): 2914.898665543441
+Epoch 1/10, Loss: 2225.1570
+Epoch 2/10, Loss: 2191.5236
+Epoch 3/10, Loss: 2033.0407
+Epoch 4/10, Loss: 1911.0293
+Epoch 5/10, Loss: 2124.1237
+Epoch 6/10, Loss: 2010.7826
+Epoch 7/10, Loss: 1967.4461
+Epoch 8/10, Loss: 1849.3247
+Epoch 9/10, Loss: 1906.6083
+Epoch 10/10, Loss: 1944.9393
+Performance Metrics:
+RMSE (test data): 54.54740524291992
+MAE (test data): 31.166616439819336
+MAPE (test data): 147.33543395996094
+MSE (test data): 2975.41943359375
+R2 (test data): 0.8744950776989107
+loss (test data): 2975.419447902358
+Epoch 1/10, Loss: 2219.5083
+Epoch 2/10, Loss: 1986.2664
+Epoch 3/10, Loss: 1958.3167
+Epoch 4/10, Loss: 1929.4403
+Epoch 5/10, Loss: 1980.4913
+Epoch 6/10, Loss: 1939.2980
+Epoch 7/10, Loss: 1962.5059
+Epoch 8/10, Loss: 2057.3242
+Epoch 9/10, Loss: 1967.6552
+Epoch 10/10, Loss: 1893.4462
+Performance Metrics:
+RMSE (test data): 57.359615325927734
+MAE (test data): 34.63031768798828
+MAPE (test data): 138.41993808746338
+MSE (test data): 3290.12548828125
+R2 (test data): 0.8612205941491082
+loss (test data): 3290.12550616701
+Epoch 1/10, Loss: 2248.0914
+Epoch 2/10, Loss: 2107.6942
+Epoch 3/10, Loss: 2015.9630
+Epoch 4/10, Loss: 1985.2459
+Epoch 5/10, Loss: 2002.8720
+Epoch 6/10, Loss: 1961.9017
+Epoch 7/10, Loss: 1990.5315
+Epoch 8/10, Loss: 1901.9249
+Epoch 9/10, Loss: 1891.9329
+Epoch 10/10, Loss: 1862.6974
+Performance Metrics:
+RMSE (test data): 53.56899642944336
+MAE (test data): 30.83445930480957
+MAPE (test data): 143.1818962097168
+MSE (test data): 2869.637451171875
+R2 (test data): 0.8789570236449835
+loss (test data): 2869.6374786712313
+Epoch 1/10, Loss: 2111.1864
+Epoch 2/10, Loss: 2028.7897
+Epoch 3/10, Loss: 1950.4091
+Epoch 4/10, Loss: 1935.4084
+Epoch 5/10, Loss: 1919.0929
+Epoch 6/10, Loss: 1909.6065
+Epoch 7/10, Loss: 1900.3171
+Epoch 8/10, Loss: 1939.6044
+Epoch 9/10, Loss: 1824.8503
+Epoch 10/10, Loss: 1828.8984
+Performance Metrics:
+RMSE (test data): 55.057655334472656
+MAE (test data): 31.513607025146484
+MAPE (test data): 145.66540718078613
+MSE (test data): 3031.34521484375
+R2 (test data): 0.8721360869737694
+loss (test data): 3031.345461220095
+Epoch 1/10, Loss: 2173.0853
+Epoch 2/10, Loss: 2040.8171
+Epoch 3/10, Loss: 1930.8910
+Epoch 4/10, Loss: 1850.6642
+Epoch 5/10, Loss: 1843.1656
+Epoch 6/10, Loss: 1803.1020
+Epoch 7/10, Loss: 1764.9750
+Epoch 8/10, Loss: 1831.0070
+Epoch 9/10, Loss: 1751.9542
+Epoch 10/10, Loss: 1829.7047
+Performance Metrics:
+RMSE (test data): 54.96828842163086
+MAE (test data): 31.368610382080078
+MAPE (test data): 143.41824054718018
+MSE (test data): 3021.5126953125
+R2 (test data): 0.8725508393108585
+loss (test data): 3021.512702466804
+Epoch 1/10, Loss: 2091.9031
+Epoch 2/10, Loss: 2009.3746
+Epoch 3/10, Loss: 1846.6257
+Epoch 4/10, Loss: 1896.5475
+Epoch 5/10, Loss: 1763.0604
+Epoch 6/10, Loss: 1771.7931
+Epoch 7/10, Loss: 1736.5493
+Epoch 8/10, Loss: 1776.9748
+Epoch 9/10, Loss: 1932.3056
+Epoch 10/10, Loss: 2033.8526
+Performance Metrics:
+RMSE (test data): 54.2374382019043
+MAE (test data): 32.11005401611328
+MAPE (test data): 145.50137519836426
+MSE (test data): 2941.69970703125
+R2 (test data): 0.8759173962013065
+loss (test data): 2941.6997830457303
+Epoch 1/10, Loss: 1980.6368
+Epoch 2/10, Loss: 1931.3759
+Epoch 3/10, Loss: 1861.9029
+Epoch 4/10, Loss: 1883.5121
+Epoch 5/10, Loss: 1723.3736
+Epoch 6/10, Loss: 1854.6594
+Epoch 7/10, Loss: 1832.6927
+Epoch 8/10, Loss: 1665.1056
+Epoch 9/10, Loss: 1783.7505
+Epoch 10/10, Loss: 1785.9351
+Performance Metrics:
+RMSE (test data): 55.18424987792969
+MAE (test data): 32.53204345703125
+MAPE (test data): 146.02527618408203
+MSE (test data): 3045.30126953125
+R2 (test data): 0.8715474288066165
+loss (test data): 3045.3011854681777
+Epoch 1/10, Loss: 2121.4893
+Epoch 2/10, Loss: 1943.8604
+Epoch 3/10, Loss: 1860.5253
+Epoch 4/10, Loss: 1755.2362
+Epoch 5/10, Loss: 1775.0721
+Epoch 6/10, Loss: 1834.0830
+Epoch 7/10, Loss: 1677.4201
+Epoch 8/10, Loss: 1657.0872
+Epoch 9/10, Loss: 1853.4295
+Epoch 10/10, Loss: 1821.0941
+Performance Metrics:
+RMSE (test data): 56.94276428222656
+MAE (test data): 33.398136138916016
+MAPE (test data): 146.91604375839233
+MSE (test data): 3242.478515625
+R2 (test data): 0.8632303666492734
+loss (test data): 3242.4786542396405
+Epoch 1/10, Loss: 2092.6417
+Epoch 2/10, Loss: 1830.8613
+Epoch 3/10, Loss: 1886.3879
+Epoch 4/10, Loss: 1703.1237
+Epoch 5/10, Loss: 1739.5898
+Epoch 6/10, Loss: 1835.2986
+Epoch 7/10, Loss: 1721.2803
+Epoch 8/10, Loss: 1711.6306
+Epoch 9/10, Loss: 1771.4593
+Epoch 10/10, Loss: 1690.8104
+Performance Metrics:
+RMSE (test data): 58.4033203125
+MAE (test data): 34.72287368774414
+MAPE (test data): 150.02377033233643
+MSE (test data): 3410.94775390625
+R2 (test data): 0.8561242435623971
+loss (test data): 3410.947754800538
+Epoch 1/10, Loss: 2116.6144
+Epoch 2/10, Loss: 1857.1392
+Epoch 3/10, Loss: 1753.2260
+Epoch 4/10, Loss: 1757.1247
+Epoch 5/10, Loss: 1794.3336
+Epoch 6/10, Loss: 1657.9716
+Epoch 7/10, Loss: 1657.9416
+Epoch 8/10, Loss: 1620.6585
+Epoch 9/10, Loss: 1792.2919
+Epoch 10/10, Loss: 1634.6977
+Performance Metrics:
+RMSE (test data): 58.260337829589844
+MAE (test data): 34.75990676879883
+MAPE (test data): 148.76426458358765
+MSE (test data): 3394.266845703125
+R2 (test data): 0.8568278505722222
+loss (test data): 3394.266891311813
+Epoch 1/10, Loss: 2058.9005
+Epoch 2/10, Loss: 1810.3055
+Epoch 3/10, Loss: 1787.4438
+Epoch 4/10, Loss: 1767.3024
+Epoch 5/10, Loss: 1670.7842
+Epoch 6/10, Loss: 1692.9383
+Epoch 7/10, Loss: 1665.5173
+Epoch 8/10, Loss: 1615.8150
+Epoch 9/10, Loss: 1732.5472
+Epoch 10/10, Loss: 1704.5990
+Performance Metrics:
+RMSE (test data): 59.354393005371094
+MAE (test data): 35.57619094848633
+MAPE (test data): 146.09278440475464
+MSE (test data): 3522.944091796875
+R2 (test data): 0.8514001729377867
+loss (test data): 3522.9440569196427
+Epoch 1/10, Loss: 2118.0191
+Epoch 2/10, Loss: 1708.9311
+Epoch 3/10, Loss: 1710.3535
+Epoch 4/10, Loss: 1658.5256
+Epoch 5/10, Loss: 1691.7496
+Epoch 6/10, Loss: 1583.0516
+Epoch 7/10, Loss: 1602.2260
+Epoch 8/10, Loss: 1648.4086
+Epoch 9/10, Loss: 1646.1244
+Epoch 10/10, Loss: 1697.3621
+Performance Metrics:
+RMSE (test data): 59.18296432495117
+MAE (test data): 33.790679931640625
+MAPE (test data): 140.87233543395996
+MSE (test data): 3502.623046875
+R2 (test data): 0.8522573136451972
+loss (test data): 3502.6233688186812
+Epoch 1/10, Loss: 2104.5557
+Epoch 2/10, Loss: 1774.2386
+Epoch 3/10, Loss: 1753.3279
+Epoch 4/10, Loss: 1730.2468
+Epoch 5/10, Loss: 1663.5253
+Epoch 6/10, Loss: 1614.0061
+Epoch 7/10, Loss: 1710.9369
+Epoch 8/10, Loss: 1584.3332
+Epoch 9/10, Loss: 1666.1098
+Epoch 10/10, Loss: 1532.3700
+Performance Metrics:
+RMSE (test data): 56.84151077270508
+MAE (test data): 33.11606979370117
+MAPE (test data): 145.57430744171143
+MSE (test data): 3230.95751953125
+R2 (test data): 0.8637163419692981
+loss (test data): 3230.9573770040993
+Epoch 1/10, Loss: 2050.5858
+Epoch 2/10, Loss: 1860.5795
+Epoch 3/10, Loss: 1613.1378
+Epoch 4/10, Loss: 1655.1088
+Epoch 5/10, Loss: 1559.7924
+Epoch 6/10, Loss: 1678.7517
+Epoch 7/10, Loss: 1636.1534
+Epoch 8/10, Loss: 1600.2426
+Epoch 9/10, Loss: 1637.4731
+Epoch 10/10, Loss: 1560.2519
+Performance Metrics:
+RMSE (test data): 59.238773345947266
+MAE (test data): 35.93463897705078
+MAPE (test data): 148.93347024917603
+MSE (test data): 3509.232177734375
+R2 (test data): 0.851978553088892
+loss (test data): 3509.2320784684066
+Epoch 1/10, Loss: 1876.9439
+Epoch 2/10, Loss: 1700.5190
+Epoch 3/10, Loss: 1541.0073
+Epoch 4/10, Loss: 1548.9171
+Epoch 5/10, Loss: 1609.1730
+Epoch 6/10, Loss: 1632.3493
+Epoch 7/10, Loss: 1549.9937
+Epoch 8/10, Loss: 1578.0431
+Epoch 9/10, Loss: 1472.9411
+Epoch 10/10, Loss: 1578.2609
+Performance Metrics:
+RMSE (test data): 59.14718246459961
+MAE (test data): 34.65042495727539
+MAPE (test data): 146.8700408935547
+MSE (test data): 3498.38916015625
+R2 (test data): 0.852435905201145
+loss (test data): 3498.3893443795787
+Epoch 1/10, Loss: 2006.1877
+Epoch 2/10, Loss: 1702.7549
+Epoch 3/10, Loss: 1638.4772
+Epoch 4/10, Loss: 1602.2943
+Epoch 5/10, Loss: 1566.1830
+Epoch 6/10, Loss: 1638.4456
+Epoch 7/10, Loss: 1490.8196
+Epoch 8/10, Loss: 1597.8537
+Epoch 9/10, Loss: 1532.8886

@@ -115,7 +115,7 @@ sheet_name = '0'
 
 value = region_map[float(sheet_name)]
 config = {"region": value}
-wandb.init(project='Cambridge_sales_MLP_3', config=config)
+wandb.init(project='Cambridge_sales_MLP_0316', config=config)
 
 # Read the dataset using the current sheet name
 dataset = file[sheet_name][:]
@@ -394,6 +394,6 @@ class RegressionClient(fl.client.NumPyClient):
 
 # Create the client and start the client
 fl.client.start_numpy_client(
-    server_address="127.0.0.1:8087",
+    server_address="127.0.0.1:8089",
     client=RegressionClient()
 )
