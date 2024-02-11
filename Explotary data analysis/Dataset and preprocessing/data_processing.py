@@ -1,13 +1,4 @@
-# -*- coding = utf-8 -*-
-# @time:08/07/2023 00:49
-# Author:Yunbo Long
-# @File:data_processing.py
-# @Software:PyCharm
-# -*- coding = utf-8 -*-
-# @time:03/07/2023 13:11
-# Author:Yunbo Long
-# @File:CNN_local.py
-# @Software:PyCharm
+
 import pandas as pd
 import numpy as np
 import xgboost as xgb
