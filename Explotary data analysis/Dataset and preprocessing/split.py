@@ -2,7 +2,7 @@
 # @Author: Yunbo
 # @Date:   2024-01-24 10:28:46
 # @Last Modified by:   Yunbo
-# @Last Modified time: 2024-02-11 11:58:26
+# @Last Modified time: 2024-02-12 13:11:15
 # -*- coding = utf-8 -*-
 # @time:08/07/2023 08:12
 # Author:Yunbo Long
@@ -20,7 +20,7 @@ import h5py
 import pandas as pd
 
 # Read the integrated_train_data.csv file
-dataset = pd.read_csv('E:\Federated_learning_flower\experiments\Presentation\integrated_train_data_ISMM.csv')
+dataset = pd.read_csv('/Users/yunbo/Documents/GitHub/PFL_Optimiozation/Data/DataCoSupplyChainDataset.csv',encoding='latin-1')
 
 # Get unique market values
 markets = dataset['index'].unique()

@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author: Yunbo
+# @Date:   2024-01-24 10:28:46
+# @Last Modified by:   Yunbo
+# @Last Modified time: 2024-02-12 13:11:10
 # -*- coding = utf-8 -*-
 # @time:08/07/2023 00:49
 # Author:Yunbo Long
@@ -12,7 +17,7 @@
 import pandas as pd
 import numpy as np
 import xgboost as xgb
-import lightgbm as lgb
+
 from sklearn.model_selection import train_test_split,cross_val_score, cross_val_predict
 from sklearn import svm,metrics,tree,preprocessing,linear_model
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
@@ -25,7 +30,7 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader, TensorDataset
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
-from tensorboardX import SummaryWriter
+
 from sklearn.model_selection import train_test_split
 import warnings
 from sklearn.preprocessing import LabelEncoder
@@ -43,7 +48,8 @@ warnings.filterwarnings('ignore')
 # dataset = pd.read_csv('/content/drive/My Drive/DataCoSupplyChainDataset.csv')
 
 
-dataset =pd.read_csv('/Users/yunbo-max/Desktop/Personalised_FL/Demand-Forecasting-with-PFL-methods/Explotary data analysis/Original Data/DataCoSupplyChainDataset.csv',encoding='latin-1')
+dataset = pd.read_csv('/Users/yunbo/Documents/GitHub/PFL_Optimiozation/Data/DataCoSupplyChainDataset.csv',encoding='latin-1')
+
 # pd.set_option('display.max_rows', 500)
 # pd.set_option('display.max_columns', 500)
 # pd.set_option('display.width', 1000)
@@ -77,7 +83,7 @@ data['shipping_hour'] = pd.DatetimeIndex(data['shipping date (DateOrders)']).hou
 
 label_data = data[['Order Region','shipping_week_day','order_week_day','Customer Full Name','Type','Delivery Status','Category Name','Customer City','Customer Country','Customer Segment','Customer State','Customer Street','Department Name','Market','Order City','Order Country','order date (DateOrders)','Order State','Order Status','Product Name','shipping date (DateOrders)','Shipping Mode']]
 
-data['index'] = data['Order Region']
+# data['index'] = data['Order Region']
 
 target=data['Sales']
 
@@ -143,7 +149,15 @@ data_final=data[['Order Id', 'Order Customer Id', 'Order Item Id',
  'Category Name', 'order_month', 'order_year' ,'Order Item Discount',
  'Department Name', 'Market', 'Order City',
  'Days for shipment (scheduled)' ,'Customer Segment', 'Customer Full Name','index']]
-#
+
+['Benefit per order' 'Order Id' 'Order Customer Id' 'Order Item Id'
+ 'Order Item Quantity' 'Department Id' 'Order Item Total' 'Category Id'
+ 'shipping_month' 'Product Card Id' 'Product Name'
+ 'Order Item Cardprod Id' 'order date (DateOrders)' 'Order State'
+ 'Order Item Discount' 'Market' 'Department Name' 'order_week_day'
+ 'Product Category Id' 'order_year' 'order_month' 'Category Name'
+ 'shipping_year' 'Order City' 'Days for shipment (scheduled)'
+ 'Customer Segment' 'Customer Full Name']
 # train_data = data_final
 # xs=train_data.loc[:, train_data.columns != 'Sales']
 # ys=target

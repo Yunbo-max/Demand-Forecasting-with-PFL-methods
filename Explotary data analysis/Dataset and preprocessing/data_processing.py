@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author: Yunbo
+# @Date:   2024-01-24 10:28:46
+# @Last Modified by:   Yunbo
+# @Last Modified time: 2024-02-11 12:07:15
 
 import pandas as pd
 import numpy as np
@@ -127,25 +132,25 @@ print(f_reg_results)
 f_reg_list=f_reg_results.Variable.values
 print(f_reg_list)
 
-# data_final=data[['Sales per customer','Order Id', 'Order Customer Id', 'Order Item Id',
-#  'Order Item Product Price' ,'Department Id', 'Order Item Quantity',
-#  'Category Id' ,'shipping_month' ,'Benefit per order' ,'Order Item Total',
-#  'Product Card Id', 'Product Name', 'Order Item Cardprod Id' ,
-#  'Order State', 'Product Category Id', 'order_week_day', 'shipping_year',
-#  'Category Name', 'order_month', 'order_year' ,'Order Item Discount',
-#  'Department Name', 'Market', 'TotalPrice', 'Order City',
-#  'Days for shipment (scheduled)' ,'Customer Segment', 'Customer Full Name','index']]
-#
-# train_data = data_final
-# xs=train_data.loc[:, train_data.columns != 'Sales']
-# ys=target
-# xs_train, xs_test,ys_train,ys_test = train_test_split(xs,ys,test_size = 0.3, random_state = 42)
-#
-# # Concatenate train_data and ys
-# train_data['Sales'] = ys.values
-#
-# # Save the integrated DataFrame to CSV
-# train_data.to_csv('integrated_train_data_ISMM.csv', index=False)
+data_final=data[['Sales per customer','Order Id', 'Order Customer Id', 'Order Item Id',
+ 'Order Item Product Price' ,'Department Id', 'Order Item Quantity',
+ 'Category Id' ,'shipping_month' ,'Benefit per order' ,'Order Item Total',
+ 'Product Card Id', 'Product Name', 'Order Item Cardprod Id' ,
+ 'Order State', 'Product Category Id', 'order_week_day', 'shipping_year',
+ 'Category Name', 'order_month', 'order_year' ,'Order Item Discount',
+ 'Department Name', 'Market', 'TotalPrice', 'Order City',
+ 'Days for shipment (scheduled)' ,'Customer Segment', 'Customer Full Name','index']]
+
+train_data = data_final
+xs=train_data.loc[:, train_data.columns != 'Sales']
+ys=target
+xs_train, xs_test,ys_train,ys_test = train_test_split(xs,ys,test_size = 0.3, random_state = 42)
+
+# Concatenate train_data and ys
+train_data['Sales'] = ys.values
+
+# Save the integrated DataFrame to CSV
+train_data.to_csv('integrated_train_data_ISMM.csv', index=False)
 #
 # xq=train_data.loc[:, train_data.columns != 'Order Item Quantity']
 # yq=train_data['Order Item Quantity']
